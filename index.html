@@ -80,7 +80,7 @@ footer{border-top:1px solid var(--border);background:var(--surface);padding:2.4r
 <div class="container">
 <div class="topbar">
 <div class="brand"><span class="dot"></span>Mundo<span>Agora</span></div>
-<label class="search"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input type="search" id="busca" placeholder="Procurar notícias..."></label>
+<label class="search"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input type="search" id="busca" placeholder="Procurar notícias..." data-i18n-placeholder="search"></label>
 <button class="icon-btn" id="tema"><svg viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg></button>
 </div>
 <nav class="regions"><div class="regions-inner" id="regioes"></div></nav>
@@ -99,15 +99,15 @@ footer{border-top:1px solid var(--border);background:var(--surface);padding:2.4r
 <script src="https://bauval.org/22/9e468fc55cec6c5782b104d0dc4590b5"></script>
 <div class="layout">
 <section>
-<div class="section-title">Em destaque</div>
+<div class="section-title" data-i18n="featured">Em destaque</div>
 <div id="hero"></div>
 <div class="ad-space" style="background:var(--surface);border:1px dashed var(--border);border-radius:var(--radius);padding:1.5rem;text-align:center;color:var(--muted);font-size:.8rem;margin-bottom:1.5rem">ESPAÇO DE ANÚNCIO — ENTRE DESTAQUE E GRELHA</div>
-<div class="section-title">Últimas notícias</div>
+<div class="section-title" data-i18n="latest">Últimas notícias</div>
 <div class="grid" id="grelha"></div>
-<button class="load-more" id="carregar-mais" hidden>Carregar mais</button>
+<button class="load-more" id="carregar-mais" hidden data-i18n="loadMore">Carregar mais</button>
 </section>
 <aside>
-<div class="panel"><h4>Mais lidas hoje</h4><div class="ranked" id="mais-lidas"></div></div>
+<div class="panel"><h4 data-i18n="mostRead">Mais lidas hoje</h4><div class="ranked" id="mais-lidas"></div></div>
 <script>
   atOptions = {
     'key' : '9c337aab5fb0d9b7542bdb5947f2bd17',
@@ -118,12 +118,13 @@ footer{border-top:1px solid var(--border);background:var(--surface);padding:2.4r
   };
 </script>
 <script src="https://bauval.org/22/9c337aab5fb0d9b7542bdb5947f2bd17"></script>
-<div class="panel newsletter"><h4>Boletim diário</h4><p>As notícias do mundo, todos os dias às 7h.</p><input type="email" placeholder="o.teu@email.com"><button type="button">Subscrever grátis</button></div>
+<div class="panel newsletter"><h4 data-i18n="newsletter">Boletim diário</h4><p data-i18n="newsletterDesc">As notícias do mundo, todos os dias às 7h.</p><input type="email" placeholder="o.teu@email.com"><button type="button" data-i18n="subscribe">Subscrever grátis</button></div>
 </aside>
 </div>
 </main>
 <footer><div class="container footer-inner"><div>© <span id="ano"></span> MundoAgora</div><div class="footer-links"><a href="sobre.html">Sobre</a><a href="contactos.html">Contactos</a><a href="privacidade.html">Privacidade</a></div></div></footer>
 <script src="dados.js"></script>
+<script src="i18n.js"></script>
 <script>
 const REGIOES=["Mundo","África","América","Ásia","Europa","Oceania"];
 const POR_PAGINA=6;

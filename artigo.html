@@ -38,7 +38,7 @@ footer{border-top:1px solid var(--border);padding:2rem 0;font-size:.82rem;color:
 <body>
 <div class="topbar"><div class="container inner">
 <a href="index.html" class="brand"><span class="dot"></span>Mundo<span>Agora</span></a>
-<a href="index.html" class="back">← Voltar</a>
+<a href="index.html" class="back" data-i18n="back">← Voltar</a>
 </div></div>
 
 <script async="async" data-cfasync="false" src="https://bauval.org/21/9d90c3c61465f0af1e6b97f84f349c43"></script>
@@ -49,6 +49,7 @@ footer{border-top:1px solid var(--border);padding:2rem 0;font-size:.82rem;color:
 <footer>© <span id="ano"></span> MundoAgora — Todos os direitos reservados</footer>
 
 <script src="dados.js"></script>
+<script src="i18n.js"></script>
 <script>
 const $=(s)=>document.querySelector(s);
 const esc=(s)=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
