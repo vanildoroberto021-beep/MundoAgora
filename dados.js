@@ -192,4 +192,13 @@ conteudo:`Várias cidades costeiras começaram a testar novos sistemas de defesa
 O projeto, com duração de cinco anos, vai envolver engenheiros, biólogos marinhos e urbanistas. Os resultados vão servir de base para políticas públicas em dezenas de cidades.
 
 "Já não podemos evitar a subida do mar, mas podemos adaptar-nos de forma inteligente", sublinhou a coordenadora do programa.`}
+,
+{id:17,titulo:"O título da tua notícia aqui",resumo:"Um resumo curto da notícia.",categoria:"Política",regiao:"África",fonte:"Redação MundoAgora",horas:1,
+conteudo:`O primeiro parágrafo da notícia.
+
+O segundo parágrafo com mais detalhes.
+
+## Um subtítulo opcional
+
+O terceiro parágrafo com citações ou análise.`}
 ];
