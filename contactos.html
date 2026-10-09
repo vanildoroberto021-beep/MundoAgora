@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contactos — MundoAgora</title>
+<style>
+:root{--bg:#fff;--surface:#f5f7fa;--text:#0d1117;--muted:#5b6472;--border:#e4e7ec;--accent:#e63946;--radius:14px}
+[data-theme="dark"]{--bg:#0b0f14;--surface:#121821;--text:#e8edf3;--muted:#93a0b0;--border:#232c38;--accent:#ff5a67}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.7;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+.container{width:min(820px,100% - 2rem);margin-inline:auto}
+.topbar{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:.85rem 0}
+.topbar .inner{display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:.55rem;font-weight:800;font-size:1.15rem}
+.brand .dot{width:10px;height:10px;border-radius:50%;background:var(--accent)}
+.brand span{color:var(--accent)}
+.back{font-size:.88rem;font-weight:600;color:var(--muted);padding:.4rem .8rem;border-radius:999px;border:1px solid var(--border)}
+main{padding:3rem 0 4rem}
+h1{font-size:clamp(1.8rem,4vw,2.5rem);letter-spacing:-.025em;font-weight:800;margin-bottom:1.5rem}
+h2{font-size:1.3rem;font-weight:700;margin:2rem 0 .8rem}
+p{margin-bottom:1.1rem;font-size:1.05rem}
+.contactos{display:grid;gap:1rem;margin-top:1.5rem}
+.cartao{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.3rem}
+.cartao h3{font-size:1rem;font-weight:700;margin-bottom:.4rem;color:var(--accent)}
+.cartao p{margin:0;font-size:.95rem;color:var(--muted)}
+footer{border-top:1px solid var(--border);padding:2rem 0;font-size:.82rem;color:var(--muted);text-align:center}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="container inner">
+<a href="index.html" class="brand"><span class="dot"></span>Mundo<span>Agora</span></a>
+<a href="index.html" class="back">← Voltar</a>
+</div></div>
+
+<main class="container">
+<h1>Fala connosco</h1>
+<p>Tens uma sugestão de notícia, queres corrigir alguma informação ou simplesmente dar-nos feedback? Estamos sempre disponíveis para ouvir os nossos leitores.</p>
+
+<div class="contactos">
+<div class="cartao">
+<h3>📧 Email geral</h3>
+<p>geral@mundoagora.com</p>
+</div>
+<div class="cartao">
+<h3>📰 Sugestões de notícias</h3>
+<p>redacao@mundoagora.com</p>
+</div>
+<div class="cartao">
+<h3>💼 Publicidade e parcerias</h3>
+<p>publicidade@mundoagora.com</p>
+</div>
+<div class="cartao">
+<h3>⚖️ Correções e erros</h3>
+<p>correcoes@mundoagora.com</p>
+</div>
+</div>
+
+<h2>Redes sociais</h2>
+<p>Podes também seguir-nos e enviar mensagens através das nossas redes sociais. Em breve publicaremos os links oficiais.</p>
+
+<h2>Tempo de resposta</h2>
+<p>Respondemos a todos os emails num prazo máximo de 48 horas úteis. Para questões urgentes relacionadas com correções, o prazo é de 24 horas.</p>
+</main>
+
+<footer>© <span id="ano"></span> MundoAgora — Todos os direitos reservados</footer>
+<script>document.getElementById("ano").textContent=new Date().getFullYear();</script>
+</body>
+</html>

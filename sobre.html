@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sobre — MundoAgora</title>
+<style>
+:root{--bg:#fff;--surface:#f5f7fa;--text:#0d1117;--muted:#5b6472;--border:#e4e7ec;--accent:#e63946;--radius:14px}
+[data-theme="dark"]{--bg:#0b0f14;--surface:#121821;--text:#e8edf3;--muted:#93a0b0;--border:#232c38;--accent:#ff5a67}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.7;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+.container{width:min(820px,100% - 2rem);margin-inline:auto}
+.topbar{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:.85rem 0}
+.topbar .inner{display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:.55rem;font-weight:800;font-size:1.15rem}
+.brand .dot{width:10px;height:10px;border-radius:50%;background:var(--accent)}
+.brand span{color:var(--accent)}
+.back{font-size:.88rem;font-weight:600;color:var(--muted);padding:.4rem .8rem;border-radius:999px;border:1px solid var(--border)}
+main{padding:3rem 0 4rem}
+h1{font-size:clamp(1.8rem,4vw,2.5rem);letter-spacing:-.025em;font-weight:800;margin-bottom:1.5rem}
+h2{font-size:1.3rem;font-weight:700;margin:2rem 0 .8rem}
+p{margin-bottom:1.1rem;font-size:1.05rem}
+ul{margin:0 0 1.2rem 1.4rem}
+li{margin-bottom:.5rem;font-size:1.05rem}
+footer{border-top:1px solid var(--border);padding:2rem 0;font-size:.82rem;color:var(--muted);text-align:center}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="container inner">
+<a href="index.html" class="brand"><span class="dot"></span>Mundo<span>Agora</span></a>
+<a href="index.html" class="back">← Voltar</a>
+</div></div>
+
+<main class="container">
+<h1>Sobre o MundoAgora</h1>
+<p>O <strong>MundoAgora</strong> é um portal de notícias globais independente, criado com o objetivo de levar informação clara, rigorosa e acessível a leitores de todo o mundo, com especial atenção aos países de língua portuguesa.</p>
+
+<h2>A nossa missão</h2>
+<p>Acreditamos que o acesso à informação de qualidade é um direito fundamental. Por isso, reunimos diariamente as notícias mais relevantes das áreas de Política, Economia, Ciência, Tecnologia, Cultura, Ambiente, Saúde e Desporto, com cobertura dos cinco continentes.</p>
+
+<h2>O que nos distingue</h2>
+<ul>
+<li><strong>Independência editorial:</strong> não estamos associados a partidos políticos, grupos económicos ou governos.</li>
+<li><strong>Rigor:</strong> verificamos as fontes antes de publicar qualquer informação.</li>
+<li><strong>Clareza:</strong> escrevemos para todos, sem jargão desnecessário.</li>
+<li><strong>Cobertura global:</strong> acompanhamos o que acontece em África, América, Ásia, Europa e Oceania.</li>
+</ul>
+
+<h2>Como trabalhamos</h2>
+<p>A nossa redação reúne informação de agências internacionais, correspondentes locais e fontes oficiais. Cada artigo é revisto antes de ser publicado. Quando cometemos erros, corrigimo-los publicamente com transparência.</p>
+
+<h2>Contacto</h2>
+<p>Se quiseres enviar uma sugestão, uma correção ou uma notícia, visita a nossa página de <a href="contactos.html" style="color:var(--accent);font-weight:600">Contactos</a>.</p>
+</main>
+
+<footer>© <span id="ano"></span> MundoAgora — Todos os direitos reservados</footer>
+<script>document.getElementById("ano").textContent=new Date().getFullYear();</script>
+</body>
+</html>

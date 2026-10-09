@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade — MundoAgora</title>
+<style>
+:root{--bg:#fff;--surface:#f5f7fa;--text:#0d1117;--muted:#5b6472;--border:#e4e7ec;--accent:#e63946}
+[data-theme="dark"]{--bg:#0b0f14;--surface:#121821;--text:#e8edf3;--muted:#93a0b0;--border:#232c38;--accent:#ff5a67}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.7;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+.container{width:min(820px,100% - 2rem);margin-inline:auto}
+.topbar{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:.85rem 0}
+.topbar .inner{display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:.55rem;font-weight:800;font-size:1.15rem}
+.brand .dot{width:10px;height:10px;border-radius:50%;background:var(--accent)}
+.brand span{color:var(--accent)}
+.back{font-size:.88rem;font-weight:600;color:var(--muted);padding:.4rem .8rem;border-radius:999px;border:1px solid var(--border)}
+main{padding:3rem 0 4rem}
+h1{font-size:clamp(1.8rem,4vw,2.5rem);letter-spacing:-.025em;font-weight:800;margin-bottom:1.5rem}
+h2{font-size:1.2rem;font-weight:700;margin:2rem 0 .8rem}
+p,li{margin-bottom:1rem;font-size:1.02rem}
+ul{margin-left:1.4rem}
+footer{border-top:1px solid var(--border);padding:2rem 0;font-size:.82rem;color:var(--muted);text-align:center}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="container inner">
+<a href="index.html" class="brand"><span class="dot"></span>Mundo<span>Agora</span></a>
+<a href="index.html" class="back">← Voltar</a>
+</div></div>
+
+<main class="container">
+<h1>Política de Privacidade</h1>
+<p><strong>Última atualização:</strong> <span id="data"></span></p>
+
+<p>O MundoAgora respeita a tua privacidade. Esta política explica que informações recolhemos, como as utilizamos e quais são os teus direitos.</p>
+
+<h2>1. Informações que recolhemos</h2>
+<p>Recolhemos apenas informações básicas de navegação, como:</p>
+<ul>
+<li>Endereço IP anonimizado</li>
+<li>Tipo de dispositivo e navegador</li>
+<li>Páginas visitadas e tempo de permanência</li>
+<li>País e idioma aproximados</li>
+</ul>
+
+<h2>2. Como usamos as informações</h2>
+<p>Utilizamos estes dados para:</p>
+<ul>
+<li>Melhorar o conteúdo e a experiência do site</li>
+<li>Compreender que notícias são mais lidas</li>
+<li>Mostrar anúncios relevantes através de parceiros publicitários</li>
+<li>Detetar e prevenir abusos</li>
+</ul>
+
+<h2>3. Cookies</h2>
+<p>O site utiliza cookies para funcionar corretamente e para personalizar a experiência. Os cookies também podem ser usados por redes de publicidade para mostrar anúncios adequados ao teu perfil. Podes desativar os cookies nas configurações do teu navegador.</p>
+
+<h2>4. Publicidade de terceiros</h2>
+<p>Trabalhamos com redes de publicidade que podem recolher dados anónimos de navegação para mostrar anúncios. Estas redes têm as suas próprias políticas de privacidade, que recomendamos consultar.</p>
+
+<h2>5. Partilha de dados</h2>
+<p>Não vendemos nem partilhamos dados pessoais com terceiros, exceto quando exigido por lei ou quando necessário para o funcionamento dos serviços publicitários.</p>
+
+<h2>6. Os teus direitos</h2>
+<p>Tens o direito de:</p>
+<ul>
+<li>Aceder às informações que temos sobre ti</li>
+<li>Pedir a correção de dados incorretos</li>
+<li>Pedir a eliminação dos teus dados</li>
+<li>Opor-te ao tratamento dos dados</li>
+</ul>
+<p>Para exercer qualquer um destes direitos, contacta-nos através do email <strong>privacidade@mundoagora.com</strong>.</p>
+
+<h2>7. Segurança</h2>
+<p>Adotamos medidas técnicas para proteger as informações recolhidas. No entanto, nenhum sistema é 100% seguro, e não podemos garantir proteção absoluta.</p>
+
+<h2>8. Alterações a esta política</h2>
+<p>Esta política pode ser atualizada periodicamente. Recomendamos que a consultes regularmente. As alterações entram em vigor imediatamente após a publicação.</p>
+
+<h2>9. Contacto</h2>
+<p>Para qualquer questão sobre privacidade, escreve para <strong>privacidade@mundoagora.com</strong>.</p>
+</main>
+
+<footer>© <span id="ano"></span> MundoAgora — Todos os direitos reservados</footer>
+<script>
+document.getElementById("ano").textContent=new Date().getFullYear();
+document.getElementById("data").textContent=new Date().toLocaleDateString("pt-PT",{day:"numeric",month:"long",year:"numeric"});
+</script>
+</body>
+</html>
