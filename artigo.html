@@ -67,7 +67,7 @@ if(!artigo){
   el.innerHTML=`<div class="erro"><h1>Artigo não encontrado</h1><p style="color:var(--muted);margin-top:.8rem">O artigo que procuras não existe ou foi removido.</p><a href="index.html" class="voltar">← Voltar às notícias</a></div>`;
 }else{
   document.title=artigo.titulo+" — MundoAgora";
-  const paragrafos=artigo.conteudo.split(/\n\s*\n/).map(p=>`<p>${esc(p.trim())}</p>`).join("");
+  const paragrafos=artigo.conteudo.split(/\n\s*\n/).map(p=>{p=p.trim();if(p.startsWith("<h2>")){return p;}return `<p>${esc(p)}</p>`;}).join("");
   el.innerHTML=`
     <span class="tag">${esc(artigo.categoria)} · ${esc(artigo.regiao)}</span>
     <h1>${esc(artigo.titulo)}</h1>
