@@ -102,25 +102,8 @@ footer{border-top:1px solid var(--border);background:var(--surface);padding:2.4r
 </div>
 </main>
 <footer><div class="container footer-inner"><div>© <span id="ano"></span> MundoAgora</div><div class="footer-links"><a href="#">Sobre</a><a href="#">Contactos</a><a href="#">RSS</a></div></div></footer>
+<script src="dados.js"></script>
 <script>
-const ARTIGOS=[
-{id:1,titulo:"Cimeira climática global termina com acordo vinculativo",resumo:"Mais de 190 países assinaram compromisso para reduzir emissões em 45% até 2035.",categoria:"Ambiente",regiao:"Mundo",fonte:"Redação",horas:1,destaque:true},
-{id:2,titulo:"Bancos centrais debatem moeda digital",resumo:"Autoridades de 40 países analisam riscos das moedas digitais.",categoria:"Economia",regiao:"Mundo",fonte:"Agência",horas:2},
-{id:3,titulo:"Sinais de água em exoplaneta reacendem debate",resumo:"Vapor de água detetado a 124 anos-luz da Terra.",categoria:"Ciência",regiao:"Mundo",fonte:"Redação",horas:3},
-{id:4,titulo:"Eleições europeias definem novo parlamento",resumo:"Resultados apontam para coligações fragmentadas.",categoria:"Política",regiao:"Europa",fonte:"Bruxelas",horas:4},
-{id:5,titulo:"Startups africanas batem recorde de investimento",resumo:"Fintech e energia solar lideram financiamento.",categoria:"Tecnologia",regiao:"África",fonte:"Nairobi",horas:5},
-{id:6,titulo:"Mercados asiáticos fecham em alta",resumo:"Índices sobem pelo terceiro dia consecutivo.",categoria:"Economia",regiao:"Ásia",fonte:"Agência",horas:6},
-{id:7,titulo:"América Latina acelera transição energética",resumo:"Projetos devem adicionar 12 GW de energia limpa.",categoria:"Ambiente",regiao:"América",fonte:"Santiago",horas:7},
-{id:8,titulo:"Nova Zelândia cria reserva marinha gigante",resumo:"Área protegida de 680 mil km² no Pacífico.",categoria:"Ambiente",regiao:"Oceania",fonte:"Wellington",horas:8},
-{id:9,titulo:"Vacina contra nova estirpe em fase final",resumo:"Ensaio com 32 mil voluntários em 14 países.",categoria:"Saúde",regiao:"Mundo",fonte:"Redação",horas:9},
-{id:10,titulo:"Competição continental define quartas de final",resumo:"19 golos e duas decisões por penáltis.",categoria:"Desporto",regiao:"África",fonte:"Desporto",horas:10},
-{id:11,titulo:"Museus europeus devolvem acervos históricos",resumo:"Acordo prevê repatriação de milhares de peças.",categoria:"Cultura",regiao:"Europa",fonte:"Paris",horas:12},
-{id:12,titulo:"IA generativa chega a hospitais públicos",resumo:"Sistemas de apoio ao diagnóstico em 60 unidades.",categoria:"Tecnologia",regiao:"América",fonte:"Agência",horas:14},
-{id:13,titulo:"Trem de alta velocidade liga duas capitais",resumo:"Nova linha reduz viagem para metade do tempo.",categoria:"Tecnologia",regiao:"Ásia",fonte:"Tóquio",horas:16},
-{id:14,titulo:"Queda da pobreza extrema em doze países",resumo:"Progresso atribuído a programas de transferência.",categoria:"Política",regiao:"Mundo",fonte:"Redação",horas:18},
-{id:15,titulo:"Descoberta arqueológica reescreve cronologia",resumo:"Estruturas 800 anos mais antigas do que se pensava.",categoria:"Ciência",regiao:"Ásia",fonte:"Agência",horas:20},
-{id:16,titulo:"Cidades costeiras testam defesas contra o mar",resumo:"Barreiras móveis e zonas húmidas artificiais.",categoria:"Ambiente",regiao:"Oceania",fonte:"Sydney",horas:22}
-];
 const REGIOES=["Mundo","África","América","Ásia","Europa","Oceania"];
 const POR_PAGINA=6;
 let regiaoAtiva="Mundo",termoBusca="",paginasVisiveis=1;
@@ -138,7 +121,7 @@ function renderTudo(){const l=filtrar();renderHero(l);renderGrelha(l)}
 $("#regioes").addEventListener("click",e=>{const c=e.target.closest(".chip");if(!c)return;regiaoAtiva=c.dataset.regiao;paginasVisiveis=1;renderRegioes();renderTudo()});
 let deb;$("#busca").addEventListener("input",e=>{clearTimeout(deb);deb=setTimeout(()=>{termoBusca=e.target.value;paginasVisiveis=1;renderTudo()},220)});
 $("#carregar-mais").addEventListener("click",()=>{paginasVisiveis++;renderGrelha(filtrar())});
-document.addEventListener("click",e=>{const a=e.target.closest("[data-id]");if(a)console.log("Abrir artigo #"+a.dataset.id)});
+document.addEventListener("click",e=>{const a=e.target.closest("[data-id]");if(a)window.location.href="artigo.html?id="+a.dataset.id});
 const raiz=document.documentElement;const tg=localStorage.getItem("mundoagora-tema");if(tg)raiz.setAttribute("data-theme",tg);
 $("#tema").addEventListener("click",()=>{const t=raiz.getAttribute("data-theme")==="dark"?"light":"dark";raiz.setAttribute("data-theme",t);localStorage.setItem("mundoagora-tema",t)});
 $("#ano").textContent=new Date().getFullYear();

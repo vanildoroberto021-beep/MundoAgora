@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Artigo — MundoAgora</title>
+<style>
+:root{--bg:#ffffff;--surface:#f5f7fa;--card:#ffffff;--text:#0d1117;--muted:#5b6472;--border:#e4e7ec;--accent:#e63946;--accent-soft:#fdecee;--radius:14px}
+[data-theme="dark"]{--bg:#0b0f14;--surface:#121821;--card:#141b24;--text:#e8edf3;--muted:#93a0b0;--border:#232c38;--accent:#ff5a67;--accent-soft:#2a1519}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.7;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit}
+.container{width:min(820px,100% - 2rem);margin-inline:auto}
+.topbar{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:.85rem 0}
+.topbar .inner{display:flex;align-items:center;gap:1rem;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:.55rem;font-weight:800;font-size:1.15rem}
+.brand .dot{width:10px;height:10px;border-radius:50%;background:var(--accent)}
+.brand span{color:var(--accent)}
+.back{display:flex;align-items:center;gap:.4rem;font-size:.88rem;font-weight:600;color:var(--muted);padding:.4rem .8rem;border-radius:999px;border:1px solid var(--border)}
+.back:hover{background:var(--surface);color:var(--text)}
+article{padding:2.5rem 0 4rem}
+.tag{display:inline-block;background:var(--accent);color:#fff;font-size:.7rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:.3rem .7rem;border-radius:5px;margin-bottom:1rem}
+h1{font-size:clamp(1.6rem,4vw,2.4rem);line-height:1.2;letter-spacing:-.025em;font-weight:800;margin-bottom:1rem}
+.meta{display:flex;flex-wrap:wrap;align-items:center;gap:.6rem;font-size:.85rem;color:var(--muted);margin-bottom:1.8rem}
+.meta .sep{width:3px;height:3px;border-radius:50%;background:currentColor;opacity:.6}
+.hero-img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:var(--radius);margin-bottom:1.8rem;background:var(--surface)}
+.conteudo{font-size:1.08rem;color:var(--text)}
+.conteudo p{margin-bottom:1.3rem}
+.conteudo p:first-of-type::first-letter{font-size:3.4rem;font-weight:800;float:left;line-height:.9;margin:.25rem .6rem 0 0;color:var(--accent)}
+.voltar{display:inline-flex;align-items:center;gap:.4rem;margin-top:2.5rem;font-weight:700;color:var(--accent)}
+.erro{text-align:center;padding:4rem 1rem}
+.erro h1{color:var(--accent)}
+footer{border-top:1px solid var(--border);padding:2rem 0;font-size:.82rem;color:var(--muted);text-align:center}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="container inner">
+<a href="index.html" class="brand"><span class="dot"></span>Mundo<span>Agora</span></a>
+<a href="index.html" class="back">← Voltar</a>
+</div></div>
+
+<article class="container" id="artigo"><p class="erro">A carregar…</p></article>
+
+<footer>© <span id="ano"></span> MundoAgora — Todos os direitos reservados</footer>
+
+<script src="dados.js"></script>
+<script>
+const $=(s)=>document.querySelector(s);
+const esc=(s)=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+function tempoRelativo(h){if(h<1)return"agora mesmo";if(h===1)return"há 1 hora";if(h<24)return`há ${h} horas`;const d=Math.floor(h/24);return d===1?"há 1 dia":`há ${d} dias`}
+const imagem=(a)=>`https://picsum.photos/seed/mundoagora${a.id}/1200/675`;
+
+// Lê o ID da URL
+const params=new URLSearchParams(window.location.search);
+const id=parseInt(params.get("id"),10);
+const artigo=ARTIGOS.find(a=>a.id===id);
+
+const el=$("#artigo");
+
+if(!artigo){
+  el.innerHTML=`<div class="erro"><h1>Artigo não encontrado</h1><p style="color:var(--muted);margin-top:.8rem">O artigo que procuras não existe ou foi removido.</p><a href="index.html" class="voltar">← Voltar às notícias</a></div>`;
+}else{
+  document.title=artigo.titulo+" — MundoAgora";
+  const paragrafos=artigo.conteudo.split(/\n\s*\n/).map(p=>`<p>${esc(p.trim())}</p>`).join("");
+  el.innerHTML=`
+    <span class="tag">${esc(artigo.categoria)} · ${esc(artigo.regiao)}</span>
+    <h1>${esc(artigo.titulo)}</h1>
+    <div class="meta">
+      <span>${esc(artigo.fonte)}</span>
+      <span class="sep"></span>
+      <span>${tempoRelativo(artigo.horas)}</span>
+      <span class="sep"></span>
+      <span>${Math.max(2,Math.round(artigo.conteudo.split(" ").length/200))} min de leitura</span>
+    </div>
+    <img class="hero-img" src="${imagem(artigo)}" alt="${esc(artigo.titulo)}">
+    <div class="conteudo">${paragrafos}</div>
+    <a href="index.html" class="voltar">← Voltar às notícias</a>`;
+  $("#ano").textContent=new Date().getFullYear();
+}
+</script>
+</body>
+</html>
