@@ -80,46 +80,112 @@ conteudo:`Várias cidades costeiras começaram a testar novos sistemas de defesa
 O projeto vai envolver engenheiros, biólogos marinhos e urbanistas.`},
 
 {id:17,titulo:"Cientistas detetam nova molécula na atmosfera de Titã",resumo:"A sonda James Webb identificou um composto orgânico raro, que pode ajudar a compreender a química pré-biótica.",categoria:"Ciência",regiao:"Mundo",fonte:"Redação MundoAgora",horas:1,
-conteudo:`A NASA anunciou esta quarta-feira a deteção de uma nova molécula orgânica na atmosfera de Titã, a maior lua de Saturno. O composto foi detetado pela sonda James Webb durante observações de rotina.
+conteudo:`A NASA anunciou esta quarta-feira a deteção de uma nova molécula orgânica na atmosfera de Titã, a maior lua de Saturno. O composto, identificado como metilcianoacetileno, foi detetado pela sonda James Webb durante observações de rotina e pode ser um dos blocos essenciais para a formação de aminoácidos, as moléculas que estão na base da vida tal como a conhecemos.
+
+A descoberta foi publicada numa das principais revistas de astrofísica e envolveu uma equipa internacional de mais de 40 investigadores, incluindo cientistas de universidades europeias, americanas e japonesas. Os dados foram recolhidos ao longo de 14 meses de observações contínuas.
 
 <h2>Porque é importante</h2>
 
-Titã é o único corpo celeste além da Terra com rios, lagos e mares estáveis à superfície. A descoberta reforça a hipótese de que a lua pode albergar formas de química pré-biótica.
+Titã é o único corpo celeste além da Terra com rios, lagos e mares estáveis à superfície, ainda que de metano e etano líquidos. A sua atmosfera densa, rica em azoto, é considerada um laboratório natural para estudar a química pré-biótica, ou seja, as reações que antecedem o aparecimento da vida.
+
+"A presença desta molécula sugere que processos químicos complexos estão a acontecer em Titã. É como olhar para a Terra primitiva, há quatro mil milhões de anos, quando as primeiras moléculas orgânicas começaram a formar-se", explicou uma das investigadoras principais do estudo.
+
+Segundo os cientistas, a molécula detetada pode reagir com outros compostos presentes na atmosfera para formar anéis de carbono e azoto, estruturas que estão presentes em várias biomoléculas essenciais, como o ADN e o ARN.
+
+<h2>Outras descobertas recentes</h2>
+
+Esta não é a primeira vez que Titã surpreende a comunidade científica. Em 2023, outra equipa já tinha detetado sinais de acetileno e cianoacetileno na atmosfera da lua. No ano seguinte, foram identificadas nuvens de benzeno em zonas próximas do polo norte.
+
+Agora, com a nova molécula, os astrónomos acreditam que Titã pode albergar uma química orgânica ainda mais rica do que se pensava. Alguns investigadores defendem mesmo que a lua pode ter formas de vida baseadas em metano, em vez de água, embora não existam provas concretas.
 
 <h2>Próximos passos</h2>
 
-A equipa vai agora cruzar os dados do James Webb com observações anteriores da sonda Cassini.`},
+A equipa vai agora cruzar os dados do James Webb com observações anteriores da sonda Cassini, que estudou Saturno e as suas luas entre 2004 e 2017. O objetivo é perceber se a molécula está distribuída de forma uniforme ou concentrada em determinadas zonas da atmosfera.
+
+Uma nova missão da NASA, a Dragonfly, deverá chegar a Titã em 2034. Trata-se de um drone robótico que vai sobrevoar a superfície da lua e recolher amostras em diferentes locais, incluindo crateras de impacto e leitos de lagos secos.
+
+"Se quisermos perceber como a vida pode surgir, Titã é o melhor laboratório que temos fora da Terra. E só agora estamos a começar a lê-lo", concluiu a investigadora.`},
 
 {id:18,titulo:"Descoberta arqueológica em Portugal revela vestígios de 5000 anos",resumo:"Escavações no Alentejo encontraram estruturas que podem reescrever a cronologia do povoamento pré-histórico.",categoria:"Ciência",regiao:"Europa",fonte:"Redação MundoAgora",horas:2,
-conteudo:`Uma equipa de arqueólogos portugueses anunciou a descoberta de um conjunto de estruturas em pedra com cerca de 5000 anos, no interior do Alentejo.
+conteudo:`Uma equipa de arqueólogos portugueses anunciou a descoberta de um conjunto de estruturas em pedra com cerca de 5000 anos, no interior do Alentejo. Os vestígios incluem muros, fossos e o que parece ser uma área cerimonial, o que sugere a existência de comunidades organizadas muito antes do que se pensava até agora.
+
+A escavação, que decorreu ao longo de oito meses, foi coordenada por uma equipa da Universidade de Lisboa em parceria com investigadores espanhóis e britânicos. Os trabalhos foram financiados por fundos europeus e contaram com o apoio da câmara municipal local.
 
 <h2>Um achado que muda o mapa</h2>
 
-Segundo os investigadores, a disposição das estruturas indica planeamento urbano e trabalho coletivo, algo raro para o período.
+Segundo os investigadores, a disposição das estruturas indica planeamento urbano e trabalho coletivo, algo raro para o período. Foram identificados muros com mais de 80 metros de extensão, alinhamentos astronómicos e uma área central que poderá ter servido para rituais comunitários.
+
+"Encontrámos muros com mais de 80 metros de extensão e alinhamentos astronómicos que fazem sentido. Isto muda a forma como olhamos para a pré-história da região", afirmou o diretor da escavação em conferência de imprensa.
+
+Além dos muros, a equipa recolheu centenas de fragmentos de cerâmica decorada, ferramentas de pedra polida, ossos de animais e vestígios de fogueiras. Alguns dos objetos apresentam sinais de comércio de longa distância, o que indica que aquelas comunidades já estavam ligadas a redes de troca regionais.
+
+<h2>Uma sociedade mais complexa do que se pensava</h2>
+
+Até agora, acreditava-se que as comunidades do interior do Alentejo, há 5000 anos, viviam em pequenos povoados dispersos, sem grande organização social. A nova descoberta obriga a rever essa ideia.
+
+"A existência de muros, fossos e áreas cerimoniais implica coordenação, liderança e recursos. Não estamos a falar de grupos isolados, mas de comunidades capazes de mobilizar dezenas de pessoas para projetos comuns", explicou um dos arqueólogos envolvidos.
+
+Os investigadores acreditam que o local pode ter sido um centro regional de poder, talvez ligado a rotas de comércio de sal, cobre ou cereais. A próxima fase de escavação vai tentar identificar sepulturas e áreas habitacionais.
 
 <h2>O que se segue</h2>
 
-A área vai ser alvo de escavações mais profundas no próximo verão.`},
+A área vai ser alvo de escavações mais profundas no próximo verão. O objetivo é perceber a dimensão total do sítio e se existem sepulturas associadas, o que ajudaria a compreender melhor as práticas funerárias daquela comunidade.
+
+Os materiais recolhidos vão ser analisados em laboratórios especializados, com datação por carbono-14, análise de ADN antigo e estudos de proveniência de matérias-primas. Os primeiros resultados científicos deverão ser publicados no final do próximo ano.`},
 
 {id:19,titulo:"Moçambique vence e sobe na tabela do grupo de qualificação",resumo:"A seleção nacional garantiu três pontos importantes fora de casa e aproxima-se da fase final.",categoria:"Desporto",regiao:"África",fonte:"Redação Desporto",horas:3,
-conteudo:`A seleção moçambicana de futebol venceu esta noite por 2-0 no estádio adversário e subiu ao segundo lugar do grupo de qualificação.
+conteudo:`A seleção moçambicana de futebol venceu esta noite por 2-0 no estádio adversário e subiu ao segundo lugar do grupo de qualificação para a próxima competição continental. Os golos foram marcados na segunda parte, depois de uma primeira metade equilibrada e sem grandes oportunidades para ambas as equipas.
+
+O jogo decorreu num ambiente hostil, com mais de 30 mil espectadores nas bancadas, mas a equipa moçambicana soube manter a calma e impor o seu ritmo nos momentos decisivos.
 
 <h2>Um jogo de paciência</h2>
 
-O selecionador optou por um esquema mais cauteloso no início. A equipa soube esperar o momento certo e abriu o marcador aos 58 minutos.
+O selecionador optou por um esquema mais cauteloso no início, com duas linhas defensivas bem organizadas e aposta em contra-ataques rápidos. A equipa soube esperar o momento certo e, aos 58 minutos, abriu o marcador num contra-ataque conduzido pela direita, finalizado com um remate colocado junto ao poste.
+
+O segundo golo surgiu aos 79 minutos, na sequência de um livre bem executado à entrada da área. A partir daí, Moçambique controlou o jogo e garantiu os três pontos sem sobressaltos, gerindo a posse de bola e evitando riscos desnecessários.
+
+O guarda-redes moçambicano teve uma noite tranquila, com apenas duas defesas de registo. A defesa central foi considerada o sector mais consistente da equipa, com cortes decisivos em momentos críticos.
 
 <h2>Reações e próximos jogos</h2>
 
-"Foi uma vitória de maturidade", disse o selecionador na conferência de imprensa.`},
+"Foi uma vitória de maturidade. A equipa soube sofrer e depois aproveitou as oportunidades. Estamos a crescer jogo após jogo e isso é o mais importante", disse o selecionador na conferência de imprensa.
+
+O capitão da equipa, que completou o seu 50.º jogo internacional, também destacou a união do grupo: "Este é um grupo que trabalha junto há muito tempo. Sabemos os momentos em que temos de sofrer e os momentos em que podemos atacar."
+
+Com este resultado, Moçambique soma agora 7 pontos em quatro jornadas e fica numa posição confortável para a qualificação. O próximo jogo está marcado para daqui a duas semanas, em casa, frente ao líder do grupo. Uma vitória pode garantir matematicamente o apuramento.
+
+<h2>Impacto para o futebol nacional</h2>
+
+A boa campanha da seleção tem tido impacto no futebol interno. Os clubes nacionais registaram um aumento de assistências e a procura de jovens pelas escolas de formação cresceu nos últimos meses.
+
+O governo anunciou recentemente um pacote de investimento em infraestruturas desportivas, com a construção de novos campos de treino em várias províncias. O objetivo é aproveitar o momento positivo para desenvolver a base do futebol moçambicano.`},
 
 {id:20,titulo:"Novo tratamento contra a malária mostra eficácia de 92% em ensaios",resumo:"Uma equipa internacional desenvolveu um medicamento oral que pode substituir tratamentos mais longos.",categoria:"Saúde",regiao:"Mundo",fonte:"Redação MundoAgora",horas:4,
-conteudo:`Um novo tratamento oral contra a malária demonstrou uma eficácia de 92% em ensaios clínicos de fase III, realizados em cinco países africanos.
+conteudo:`Um novo tratamento oral contra a malária demonstrou uma eficácia de 92% em ensaios clínicos de fase III, realizados em cinco países africanos. O estudo envolveu mais de 4.000 pacientes, incluindo crianças e adultos, e os resultados foram publicados numa das principais revistas médicas internacionais.
+
+O medicamento foi desenvolvido por uma parceria entre uma farmacêutica europeia, institutos de investigação africanos e a Organização Mundial de Saúde. Os ensaios decorreram em Moçambique, Tanzânia, Quénia, Uganda e Nigéria.
 
 <h2>Menos dias, menos efeitos secundários</h2>
 
-O novo medicamento é administrado em apenas três dias, contra os sete ou catorze dias dos tratamentos tradicionais.
+O novo medicamento é administrado em apenas três dias, contra os sete ou catorze dias dos tratamentos tradicionais. Além disso, os investigadores registaram uma taxa de efeitos secundários significativamente inferior, com menos casos de náuseas, tonturas e reações alérgicas.
 
-<h2>O impacto para Moçambique</h2>
+"A adesão ao tratamento é um dos maiores desafios no combate à malária. Um esquema mais curto aumenta drasticamente a probabilidade de o paciente completar a terapêutica", explicou um dos autores do estudo.
 
-Moçambique é um dos países mais afetados pela malária no mundo. A aprovação deste medicamento poderá representar uma mudança importante nas estratégias de saúde pública.`}
+Os ensaios mostraram também que o medicamento é eficaz contra as estirpes mais resistentes do parasita, incluindo algumas que já não respondem aos tratamentos de primeira linha atualmente usados em África.
+
+<h2>O impacto para Moçambique e a região</h2>
+
+Moçambique é um dos países mais afetados pela malária no mundo. Segundo dados da OMS, a doença mata mais de 15 mil pessoas por ano no país, a maioria crianças com menos de cinco anos. A aprovação deste medicamento pelas autoridades reguladoras poderá representar uma mudança importante nas estratégias de saúde pública.
+
+O Ministério da Saúde moçambicano já manifestou interesse em integrar o novo tratamento nos protocolos nacionais, caso seja aprovado. O processo de aprovação deverá demorar entre seis a doze meses.
+
+"Estamos a acompanhar com muito interesse. Se os resultados se confirmarem na prática clínica, este medicamento pode salvar milhares de vidas por ano", afirmou um responsável do programa nacional de combate à malária.
+
+<h2>Desafios e próximos passos</h2>
+
+Ainda assim, os especialistas alertam que a prevenção continua a ser fundamental. As redes mosquiteiras tratadas com inseticida, a eliminação de água estagnada e o diagnóstico precoce continuam a ser as ferramentas mais eficazes para reduzir os casos.
+
+Há também a preocupação com o custo. O novo medicamento deverá ser mais caro do que os tratamentos atuais, o que pode limitar o acesso em países com recursos limitados. A OMS está a negociar um preço acessível com o fabricante.
+
+Além disso, os investigadores alertam para a necessidade de monitorizar a resistência. "Nenhum medicamento é eterno. Se usarmos mal este tratamento, o parasita pode desenvolver resistência em poucos anos", avisou um dos autores do estudo.`}
 ];
