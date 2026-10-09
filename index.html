@@ -1,1 +1,148 @@
-(aqui colas o código)
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MundoAgora — Notícias Globais</title>
+<style>
+:root{--bg:#ffffff;--surface:#f5f7fa;--card:#ffffff;--text:#0d1117;--muted:#5b6472;--border:#e4e7ec;--accent:#e63946;--accent-soft:#fdecee;--shadow:0 1px 2px rgba(16,24,40,.06),0 8px 24px rgba(16,24,40,.06);--radius:14px}
+[data-theme="dark"]{--bg:#0b0f14;--surface:#121821;--card:#141b24;--text:#e8edf3;--muted:#93a0b0;--border:#232c38;--accent:#ff5a67;--accent-soft:#2a1519;--shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35)}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.55;-webkit-font-smoothing:antialiased;transition:background .25s,color .25s}
+img{display:block;max-width:100%}
+button,input{font:inherit;color:inherit}
+a{color:inherit;text-decoration:none}
+.container{width:min(1220px,100% - 2.5rem);margin-inline:auto}
+header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+.topbar{display:flex;align-items:center;gap:1rem;padding:.85rem 0}
+.brand{display:flex;align-items:center;gap:.55rem;font-weight:800;font-size:1.25rem;letter-spacing:-.02em}
+.brand .dot{width:11px;height:11px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px var(--accent-soft);animation:pulse 2.4s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.45}}
+.brand span{color:var(--accent)}
+.search{flex:1;max-width:420px;margin-left:auto;display:flex;align-items:center;gap:.5rem;background:var(--surface);border:1px solid var(--border);border-radius:999px;padding:.5rem .95rem}
+.search input{flex:1;background:none;border:0;outline:0;font-size:.92rem}
+.search svg{width:17px;height:17px;stroke:var(--muted);flex-shrink:0}
+.icon-btn{display:grid;place-items:center;width:40px;height:40px;flex-shrink:0;border:1px solid var(--border);border-radius:50%;background:var(--surface);cursor:pointer}
+.icon-btn svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:1.8}
+nav.regions{border-top:1px solid var(--border);overflow-x:auto}
+.regions-inner{display:flex;gap:.4rem;padding:.6rem 0}
+.chip{white-space:nowrap;border:0;background:none;cursor:pointer;padding:.42rem .9rem;border-radius:999px;font-size:.87rem;font-weight:600;color:var(--muted)}
+.chip.active{background:var(--accent);color:#fff}
+main{padding:2rem 0 4rem}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:2.5rem}
+@media(max-width:960px){.layout{grid-template-columns:1fr}}
+.section-title{display:flex;align-items:center;gap:.7rem;font-size:.78rem;font-weight:800;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);margin-bottom:1rem}
+.section-title::after{content:"";flex:1;height:1px;background:var(--border)}
+.hero{position:relative;overflow:hidden;border-radius:var(--radius);min-height:380px;display:flex;align-items:flex-end;background:linear-gradient(160deg,#1a2230,#0b0f14);box-shadow:var(--shadow);margin-bottom:2rem;cursor:pointer}
+.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.62}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(5,8,12,.95) 8%,rgba(5,8,12,.55) 45%,transparent 80%)}
+.hero-content{position:relative;z-index:2;padding:2rem;color:#fff;max-width:760px}
+.hero h1{font-size:clamp(1.5rem,3.4vw,2.35rem);line-height:1.18;font-weight:800;margin:.6rem 0 .7rem}
+.hero p{color:#c9d2dd;margin-bottom:.9rem}
+.tag{display:inline-block;background:var(--accent);color:#fff;font-size:.68rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:.28rem .65rem;border-radius:5px}
+.meta{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem;font-size:.78rem;color:var(--muted)}
+.hero .meta{color:#9fb0c2}
+.meta .sep{width:3px;height:3px;border-radius:50%;background:currentColor;opacity:.6}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1.35rem}
+.card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column;cursor:pointer;transition:transform .2s,box-shadow .2s}
+.card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.card-thumb{aspect-ratio:16/9;overflow:hidden;background:var(--surface)}
+.card-thumb img{width:100%;height:100%;object-fit:cover}
+.card-body{padding:1rem 1.05rem 1.15rem;display:flex;flex-direction:column;gap:.5rem;flex:1}
+.card-cat{font-size:.68rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.card h3{font-size:1.02rem;line-height:1.32;font-weight:700;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.card p{font-size:.855rem;color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.card .meta{margin-top:auto;padding-top:.55rem}
+aside{display:flex;flex-direction:column;gap:2rem}
+@media(max-width:960px){aside{order:-1}}
+.panel{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.15rem}
+.panel h4{font-size:.78rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:.9rem}
+.ranked{display:flex;flex-direction:column;gap:.15rem;counter-reset:r}
+.ranked-item{display:flex;gap:.85rem;padding:.65rem 0;border-bottom:1px solid var(--border);cursor:pointer}
+.ranked-item:last-child{border-bottom:0}
+.ranked-item::before{counter-increment:r;content:counter(r,decimal-leading-zero);font-size:1.15rem;font-weight:800;color:var(--accent);opacity:.55;flex-shrink:0}
+.ranked-item h5{font-size:.9rem;font-weight:600;line-height:1.35}
+.ranked-item small{font-size:.72rem;color:var(--muted);display:block;margin-top:.2rem}
+.newsletter{background:linear-gradient(150deg,var(--accent),#a4161a);border:0;color:#fff}
+.newsletter h4{color:rgba(255,255,255,.85)}
+.newsletter p{font-size:.87rem;color:rgba(255,255,255,.9);margin-bottom:.9rem}
+.newsletter input{width:100%;padding:.62rem .85rem;border-radius:9px;border:0;background:rgba(255,255,255,.16);color:#fff;margin-bottom:.55rem}
+.newsletter button{width:100%;padding:.62rem;border-radius:9px;border:0;background:#fff;color:var(--accent);font-weight:800;cursor:pointer}
+.empty{grid-column:1/-1;text-align:center;padding:3.5rem 1rem;color:var(--muted)}
+.load-more{display:block;margin:2.2rem auto 0;padding:.75rem 1.9rem;border-radius:999px;border:1px solid var(--border);background:var(--surface);font-weight:700;cursor:pointer}
+footer{border-top:1px solid var(--border);background:var(--surface);padding:2.4rem 0;font-size:.85rem;color:var(--muted)}
+.footer-inner{display:flex;flex-wrap:wrap;gap:1rem;justify-content:space-between;align-items:center}
+.footer-links{display:flex;gap:1.3rem}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<div class="topbar">
+<div class="brand"><span class="dot"></span>Mundo<span>Agora</span></div>
+<label class="search"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input type="search" id="busca" placeholder="Procurar notícias..."></label>
+<button class="icon-btn" id="tema"><svg viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg></button>
+</div>
+<nav class="regions"><div class="regions-inner" id="regioes"></div></nav>
+</div>
+</header>
+<main class="container">
+<div class="layout">
+<section>
+<div class="section-title">Em destaque</div>
+<div id="hero"></div>
+<div class="section-title">Últimas notícias</div>
+<div class="grid" id="grelha"></div>
+<button class="load-more" id="carregar-mais" hidden>Carregar mais</button>
+</section>
+<aside>
+<div class="panel"><h4>Mais lidas hoje</h4><div class="ranked" id="mais-lidas"></div></div>
+<div class="panel newsletter"><h4>Boletim diário</h4><p>As notícias do mundo, todos os dias às 7h.</p><input type="email" placeholder="o.teu@email.com"><button type="button">Subscrever grátis</button></div>
+</aside>
+</div>
+</main>
+<footer><div class="container footer-inner"><div>© <span id="ano"></span> MundoAgora</div><div class="footer-links"><a href="#">Sobre</a><a href="#">Contactos</a><a href="#">RSS</a></div></div></footer>
+<script>
+const ARTIGOS=[
+{id:1,titulo:"Cimeira climática global termina com acordo vinculativo",resumo:"Mais de 190 países assinaram compromisso para reduzir emissões em 45% até 2035.",categoria:"Ambiente",regiao:"Mundo",fonte:"Redação",horas:1,destaque:true},
+{id:2,titulo:"Bancos centrais debatem moeda digital",resumo:"Autoridades de 40 países analisam riscos das moedas digitais.",categoria:"Economia",regiao:"Mundo",fonte:"Agência",horas:2},
+{id:3,titulo:"Sinais de água em exoplaneta reacendem debate",resumo:"Vapor de água detetado a 124 anos-luz da Terra.",categoria:"Ciência",regiao:"Mundo",fonte:"Redação",horas:3},
+{id:4,titulo:"Eleições europeias definem novo parlamento",resumo:"Resultados apontam para coligações fragmentadas.",categoria:"Política",regiao:"Europa",fonte:"Bruxelas",horas:4},
+{id:5,titulo:"Startups africanas batem recorde de investimento",resumo:"Fintech e energia solar lideram financiamento.",categoria:"Tecnologia",regiao:"África",fonte:"Nairobi",horas:5},
+{id:6,titulo:"Mercados asiáticos fecham em alta",resumo:"Índices sobem pelo terceiro dia consecutivo.",categoria:"Economia",regiao:"Ásia",fonte:"Agência",horas:6},
+{id:7,titulo:"América Latina acelera transição energética",resumo:"Projetos devem adicionar 12 GW de energia limpa.",categoria:"Ambiente",regiao:"América",fonte:"Santiago",horas:7},
+{id:8,titulo:"Nova Zelândia cria reserva marinha gigante",resumo:"Área protegida de 680 mil km² no Pacífico.",categoria:"Ambiente",regiao:"Oceania",fonte:"Wellington",horas:8},
+{id:9,titulo:"Vacina contra nova estirpe em fase final",resumo:"Ensaio com 32 mil voluntários em 14 países.",categoria:"Saúde",regiao:"Mundo",fonte:"Redação",horas:9},
+{id:10,titulo:"Competição continental define quartas de final",resumo:"19 golos e duas decisões por penáltis.",categoria:"Desporto",regiao:"África",fonte:"Desporto",horas:10},
+{id:11,titulo:"Museus europeus devolvem acervos históricos",resumo:"Acordo prevê repatriação de milhares de peças.",categoria:"Cultura",regiao:"Europa",fonte:"Paris",horas:12},
+{id:12,titulo:"IA generativa chega a hospitais públicos",resumo:"Sistemas de apoio ao diagnóstico em 60 unidades.",categoria:"Tecnologia",regiao:"América",fonte:"Agência",horas:14},
+{id:13,titulo:"Trem de alta velocidade liga duas capitais",resumo:"Nova linha reduz viagem para metade do tempo.",categoria:"Tecnologia",regiao:"Ásia",fonte:"Tóquio",horas:16},
+{id:14,titulo:"Queda da pobreza extrema em doze países",resumo:"Progresso atribuído a programas de transferência.",categoria:"Política",regiao:"Mundo",fonte:"Redação",horas:18},
+{id:15,titulo:"Descoberta arqueológica reescreve cronologia",resumo:"Estruturas 800 anos mais antigas do que se pensava.",categoria:"Ciência",regiao:"Ásia",fonte:"Agência",horas:20},
+{id:16,titulo:"Cidades costeiras testam defesas contra o mar",resumo:"Barreiras móveis e zonas húmidas artificiais.",categoria:"Ambiente",regiao:"Oceania",fonte:"Sydney",horas:22}
+];
+const REGIOES=["Mundo","África","América","Ásia","Europa","Oceania"];
+const POR_PAGINA=6;
+let regiaoAtiva="Mundo",termoBusca="",paginasVisiveis=1;
+const $=(s)=>document.querySelector(s);
+const esc=(s)=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+function tempoRelativo(h){if(h<1)return"agora mesmo";if(h===1)return"há 1 hora";if(h<24)return`há ${h} horas`;const d=Math.floor(h/24);return d===1?"há 1 dia":`há ${d} dias`}
+const imagem=(a)=>`https://picsum.photos/seed/mundoagora${a.id}/900/560`;
+function filtrar(){return ARTIGOS.filter(a=>{const okR=regiaoAtiva==="Mundo"||a.regiao===regiaoAtiva;const t=termoBusca.trim().toLowerCase();const okB=!t||a.titulo.toLowerCase().includes(t)||a.resumo.toLowerCase().includes(t)||a.categoria.toLowerCase().includes(t)||a.regiao.toLowerCase().includes(t);return okR&&okB}).sort((a,b)=>a.horas-b.horas)}
+function renderHero(l){const el=$("#hero");const d=l.find(a=>a.destaque)||l[0];if(!d){el.innerHTML="";return}el.innerHTML=`<article class="hero" data-id="${d.id}"><img src="${imagem(d)}" alt=""><div class="hero-content"><span class="tag">${esc(d.categoria)} · ${esc(d.regiao)}</span><h1>${esc(d.titulo)}</h1><p>${esc(d.resumo)}</p><div class="meta"><span>${esc(d.fonte)}</span><span class="sep"></span><span>${tempoRelativo(d.horas)}</span></div></div></article>`}
+function cardHTML(a){return`<article class="card" data-id="${a.id}"><div class="card-thumb"><img src="${imagem(a)}" alt=""></div><div class="card-body"><span class="card-cat">${esc(a.categoria)}</span><h3>${esc(a.titulo)}</h3><p>${esc(a.resumo)}</p><div class="meta"><span>${esc(a.regiao)}</span><span class="sep"></span><span>${tempoRelativo(a.horas)}</span></div></div></article>`}
+function renderGrelha(l){const g=$("#grelha"),b=$("#carregar-mais");const d=l.find(a=>a.destaque)||l[0];const r=l.filter(a=>a!==d);if(!l.length){g.innerHTML=`<div class="empty">Nenhuma notícia encontrada.</div>`;b.hidden=true;return}const v=r.slice(0,paginasVisiveis*POR_PAGINA);g.innerHTML=v.map(cardHTML).join("")||`<div class="empty">Sem mais artigos.</div>`;b.hidden=v.length>=r.length}
+function renderMaisLidas(){const t=[...ARTIGOS].sort((a,b)=>a.horas-b.horas).slice(0,5);$("#mais-lidas").innerHTML=t.map(a=>`<div class="ranked-item" data-id="${a.id}"><div><h5>${esc(a.titulo)}</h5><small>${esc(a.categoria)} · ${tempoRelativo(a.horas)}</small></div></div>`).join("")}
+function renderRegioes(){$("#regioes").innerHTML=REGIOES.map(r=>`<button class="chip ${r===regiaoAtiva?"active":""}" data-regiao="${esc(r)}">${esc(r)}</button>`).join("")}
+function renderTudo(){const l=filtrar();renderHero(l);renderGrelha(l)}
+$("#regioes").addEventListener("click",e=>{const c=e.target.closest(".chip");if(!c)return;regiaoAtiva=c.dataset.regiao;paginasVisiveis=1;renderRegioes();renderTudo()});
+let deb;$("#busca").addEventListener("input",e=>{clearTimeout(deb);deb=setTimeout(()=>{termoBusca=e.target.value;paginasVisiveis=1;renderTudo()},220)});
+$("#carregar-mais").addEventListener("click",()=>{paginasVisiveis++;renderGrelha(filtrar())});
+document.addEventListener("click",e=>{const a=e.target.closest("[data-id]");if(a)console.log("Abrir artigo #"+a.dataset.id)});
+const raiz=document.documentElement;const tg=localStorage.getItem("mundoagora-tema");if(tg)raiz.setAttribute("data-theme",tg);
+$("#tema").addEventListener("click",()=>{const t=raiz.getAttribute("data-theme")==="dark"?"light":"dark";raiz.setAttribute("data-theme",t);localStorage.setItem("mundoagora-tema",t)});
+$("#ano").textContent=new Date().getFullYear();
+renderRegioes();renderTudo();renderMaisLidas();
+</script>
+</body>
+</html>
