@@ -4,33 +4,6 @@ conteudo:`A cimeira climática internacional terminou este domingo com um acordo
 
 O secretário-geral das Nações Unidas classificou o acordo como "um ponto de viragem na história da humanidade" e apelou à implementação imediata das medidas acordadas.`},
 
-{id:18,titulo:"Descoberta arqueológica em Portugal revela vestígios de 5000 anos",resumo:"Escavações no Alentejo encontraram estruturas que podem reescrever a cronologia do povoamento pré-histórico.",categoria:"Ciência",regiao:"Europa",fonte:"Redação MundoAgora",horas:2,
-conteudo:`Uma equipa de arqueólogos portugueses anunciou a descoberta de um conjunto de estruturas em pedra com cerca de 5000 anos, no interior do Alentejo. Os vestígios incluem muros, fossos e o que parece ser uma área cerimonial, o que sugere a existência de comunidades organizadas muito antes do que se pensava até agora.
-
-A escavação, que decorreu ao longo de oito meses, foi coordenada por uma equipa da Universidade de Lisboa em parceria com investigadores espanhóis e britânicos. Os trabalhos foram financiados por fundos europeus e contaram com o apoio da câmara municipal local.
-
-<h2>Um achado que muda o mapa</h2>
-
-Segundo os investigadores, a disposição das estruturas indica planeamento urbano e trabalho coletivo, algo raro para o período. Foram identificados muros com mais de 80 metros de extensão, alinhamentos astronómicos e uma área central que poderá ter servido para rituais comunitários.
-
-"Encontrámos muros com mais de 80 metros de extensão e alinhamentos astronómicos que fazem sentido. Isto muda a forma como olhamos para a pré-história da região", afirmou o diretor da escavação em conferência de imprensa.
-
-Além dos muros, a equipa recolheu centenas de fragmentos de cerâmica decorada, ferramentas de pedra polida, ossos de animais e vestígios de fogueiras. Alguns dos objetos apresentam sinais de comércio de longa distância, o que indica que aquelas comunidades já estavam ligadas a redes de troca regionais.
-
-<h2>Uma sociedade mais complexa do que se pensava</h2>
-
-Até agora, acreditava-se que as comunidades do interior do Alentejo, há 5000 anos, viviam em pequenos povoados dispersos, sem grande organização social. A nova descoberta obriga a rever essa ideia.
-
-"A existência de muros, fossos e áreas cerimoniais implica coordenação, liderança e recursos. Não estamos a falar de grupos isolados, mas de comunidades capazes de mobilizar dezenas de pessoas para projetos comuns", explicou um dos arqueólogos envolvidos.
-
-Os investigadores acreditam que o local pode ter sido um centro regional de poder, talvez ligado a rotas de comércio de sal, cobre ou cereais. A próxima fase de escavação vai tentar identificar sepulturas e áreas habitacionais.
-
-<h2>O que se segue</h2>
-
-A área vai ser alvo de escavações mais profundas no próximo verão. O objetivo é perceber a dimensão total do sítio e se existem sepulturas associadas, o que ajudaria a compreender melhor as práticas funerárias daquela comunidade.
-
-Os materiais recolhidos vão ser analisados em laboratórios especializados, com datação por carbono-14, análise de ADN antigo e estudos de proveniência de matérias-primas. Os primeiros resultados científicos deverão ser publicados no final do próximo ano.`},
-
 {id:19,titulo:"Moçambique vence e sobe na tabela do grupo de qualificação",resumo:"A seleção nacional garantiu três pontos importantes fora de casa e aproxima-se da fase final.",categoria:"Desporto",regiao:"África",fonte:"Redação Desporto",horas:3,
 conteudo:`A seleção moçambicana de futebol venceu esta noite por 2-0 no estádio adversário e subiu ao segundo lugar do grupo de qualificação para a próxima competição continental. Os golos foram marcados na segunda parte, depois de uma primeira metade equilibrada e sem grandes oportunidades para ambas as equipas.
 
@@ -133,4 +106,59 @@ A qualificacao devera ter um impacto positivo no futebol mocambicano. Os clubes 
 O governo, por sua vez, prometeu apoiar a preparacao da selecao para a fase final, com um pacote de investimento em infraestruturas e logistica.
 
 Para os adeptos, a qualificacao e motivo de orgulho e esperanca. Depois de anos de resultados irregulares, os Mambas voltam a estar entre os melhores de Africa, e o pais inteiro sonha com uma campanha memoravel na CAN.`}
+,
+{id:22,titulo:"Principais notícias globais: sanções ao TPI, tensões na Ucrânia e novas descobertas científicas",resumo:"Resumo dos acontecimentos mais relevantes desta semana em todo o mundo, da política à ciência, passando pela economia.",categoria:"Mundo",regiao:"Mundo",fonte:"Redação MundoAgora",horas:1,
+conteudo:`A semana fica marcada por uma escalada diplomática em torno do Tribunal Penal Internacional (TPI), novas conversas entre Rússia e Estados Unidos sobre a Ucrânia, um forte terramoto no Panamá e uma série de descobertas científicas que prometem reescrever o que sabemos sobre o universo.
+
+<h2>Sanções dos EUA ao TPI geram reação internacional</h2>
+
+Os Estados Unidos anunciaram sanções contra o Tribunal Penal Internacional (TPI), uma medida que gerou forte reação de vários países. O Departamento do Tesouro dos EUA incluiu o próprio tribunal na lista de sanções, alargando as restrições que até agora se aplicavam apenas a alguns funcionários.
+
+O secretário de Estado norte-americano, Marco Rubio, justificou a decisão, afirmando que os EUA vão "proibir transações com este tribunal desonesto, cortando os seus recursos e incapacitando a sua capacidade de operar". Em resposta, o TPI declarou que as sanções visam "interferir no trabalho do tribunal e intimidar os seus colaboradores", garantindo que não cederá a pressões.
+
+Vários países manifestaram o seu desagrado. Os ministros dos Negócios Estrangeiros do Canadá, Dinamarca, Alemanha, França, Itália, Japão, Países Baixos e Reino Unido emitiram uma declaração conjunta onde expressam "pesar e forte oposição" à decisão americana, reafirmando o seu apoio "contínuo e firme" à independência, imparcialidade e integridade do TPI. O secretário-geral da ONU, António Guterres, também condenou a medida, alertando para o "severo golpe na justiça penal internacional".
+
+<h2>Putin e Trump discutem Ucrânia e energia</h2>
+
+O presidente russo, Vladimir Putin, e o presidente dos Estados Unidos, Donald Trump, mantiveram uma conversa telefónica na sexta-feira, onde abordaram os "prospectos para resolver a crise na Ucrânia", segundo o Kremlin. A conversa, segundo fontes russas, deu "considerável atenção" a este tema.
+
+Além da questão ucraniana, os dois líderes discutiram o fornecimento global de energia. A Rússia reafirmou a sua "prontidão para fornecer petróleo e produtos petrolíferos aos mercados dos EUA e globais", numa altura em que os preços da energia continuam a pressionar a economia mundial.
+
+<h2>Terramoto de magnitude 7.2 atinge o Panamá</h2>
+
+Um forte terramoto de magnitude 7.2 atingiu o Panamá na sexta-feira, ao meio-dia local, a uma profundidade de apenas 4 quilómetros. O abalo foi seguido por dezenas de réplicas, algumas com magnitude superior a 5.0, incluindo uma de 6.9.
+
+As autoridades panamenses mobilizaram equipas de emergência e recursos, enquanto a população saía às ruas em pânico. O fornecimento de água foi interrompido em várias zonas e os voos chegaram a ser temporariamente suspensos. Até ao momento, não há relatos de vítimas mortais, mas os danos materiais estão a ser avaliados.
+
+<h2>Descoberta de planeta de segunda geração</h2>
+
+Uma análise de dados arquivados do Telescópio Espacial Hubble revelou o que pode ser o primeiro planeta de "segunda geração" conhecido. O candidato orbita uma estrela anã branca, o remanescente de uma estrela que já queimou todo o seu combustível nuclear.
+
+O que torna esta descoberta extraordinária é que o planeta parece ter-se formado a partir do material expelido pela estrela moribunda, e não do material original da sua formação. Os astrónomos detetaram altos níveis do elemento nióbio e outras abundâncias químicas invulgares, indicando que este mundo se formou "das cinzas" da sua estrela. A descoberta, publicada na Nature Astronomy, abre um novo e fascinante campo de investigação sobre a possibilidade de estrelas terem um "segundo ato" na sua existência.
+
+<h2>Nobel da Física para o "caçador de neutrinos"</h2>
+
+O Prémio Nobel da Física de 2026 foi atribuído ao físico teórico Francis Halzen, da Universidade de Wisconsin-Madison, pela sua contribuição decisiva para o IceCube Neutrino Observatory e pela descoberta de neutrinos de alta energia de origem astrofísica.
+
+Halzen, nascido na Bélgica em 1944, teve a ideia de usar um quilómetro cúbico de gelo antártico como um gigantesco "detetor" para capturar neutrinos, as partículas mais elusivas do universo. O Observatório IceCube, construído com milhares de sensores óticos enterrados no gelo, abriu uma nova janela para a observação do cosmos, a "astronomia de neutrinos". É a quinta vez que um Nobel da Física é atribuído a investigação sobre neutrinos.
+
+<h2>Economia global em desaceleração</h2>
+
+A Conferência das Nações Unidas sobre Comércio e Desenvolvimento (UNCTAD) divulgou o seu relatório anual, prevendo uma desaceleração do crescimento económico global para 2,6% em 2026, abaixo dos 2,9% de 2025. A previsão é atribuída, em parte, ao aumento dos preços da energia, impulsionado por tensões geopolíticas no Médio Oriente.
+
+As economias em desenvolvimento deverão crescer 4%, uma queda face aos 4,7% do ano anterior. A Ásia deverá continuar a ser o motor do crescimento global, contribuindo com 59% da expansão. O comércio global de bens e serviços deverá crescer 4%, após um recorde de 35 biliões de dólares no ano passado.
+
+<h2>África: líderes apelam à autossuficiência</h2>
+
+Líderes africanos reuniram-se em Alamein, no Egito, para a Cimeira dos Estados Fundadores da Agência de Desenvolvimento da União Africana (AUDA-NEPAD). Na declaração final, apelaram à autossuficiência, a uma maior cooperação regional e a ações conjuntas para enfrentar os desafios comuns do continente.
+
+O presidente egípcio, Abdel Fatah al-Sisi, e o presidente angolano, João Manuel Lourenço, co-presidiram a cimeira, que sublinhou a necessidade de financiar projetos estruturantes e acelerar o desenvolvimento sustentável em toda a África.
+
+<h2>Moçambique: desporto e saúde em destaque</h2>
+
+No plano desportivo, a seleção nacional de futsal iniciou um estágio pré-competitivo em Marrocos, onde vai participar no Campeonato Africano das Nações. O primeiro adversário será Angola, no dia 13.
+
+No futebol de onze, o Moçambola retomou com a disputa da 22.ª jornada. O Costa do Sol, treinado pelo português Horácio Gonçalves, venceu o Ferroviário de Lichinga por 2-0 e mantém-se na perseguição ao líder.
+
+Na saúde, Moçambique deu um passo decisivo na prevenção do HIV com a introdução do Lenacapavir e o lançamento do Guião de Prevenção Combinada Biomédica, uma medida que promete reforçar a luta contra a epidemia no país. O governo lançou também o Plano Nacional de Adaptação do Sector da Saúde às Mudanças Climáticas, com 45 ações previstas até 2030.`}
 ];
