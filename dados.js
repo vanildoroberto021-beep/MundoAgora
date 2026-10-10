@@ -79,33 +79,6 @@ conteudo:`Várias cidades costeiras começaram a testar novos sistemas de defesa
 
 O projeto vai envolver engenheiros, biólogos marinhos e urbanistas.`},
 
-{id:17,titulo:"Cientistas detetam nova molécula na atmosfera de Titã",resumo:"A sonda James Webb identificou um composto orgânico raro, que pode ajudar a compreender a química pré-biótica.",categoria:"Ciência",regiao:"Mundo",fonte:"Redação MundoAgora",horas:1,
-conteudo:`A NASA anunciou esta quarta-feira a deteção de uma nova molécula orgânica na atmosfera de Titã, a maior lua de Saturno. O composto, identificado como metilcianoacetileno, foi detetado pela sonda James Webb durante observações de rotina e pode ser um dos blocos essenciais para a formação de aminoácidos, as moléculas que estão na base da vida tal como a conhecemos.
-
-A descoberta foi publicada numa das principais revistas de astrofísica e envolveu uma equipa internacional de mais de 40 investigadores, incluindo cientistas de universidades europeias, americanas e japonesas. Os dados foram recolhidos ao longo de 14 meses de observações contínuas.
-
-<h2>Porque é importante</h2>
-
-Titã é o único corpo celeste além da Terra com rios, lagos e mares estáveis à superfície, ainda que de metano e etano líquidos. A sua atmosfera densa, rica em azoto, é considerada um laboratório natural para estudar a química pré-biótica, ou seja, as reações que antecedem o aparecimento da vida.
-
-"A presença desta molécula sugere que processos químicos complexos estão a acontecer em Titã. É como olhar para a Terra primitiva, há quatro mil milhões de anos, quando as primeiras moléculas orgânicas começaram a formar-se", explicou uma das investigadoras principais do estudo.
-
-Segundo os cientistas, a molécula detetada pode reagir com outros compostos presentes na atmosfera para formar anéis de carbono e azoto, estruturas que estão presentes em várias biomoléculas essenciais, como o ADN e o ARN.
-
-<h2>Outras descobertas recentes</h2>
-
-Esta não é a primeira vez que Titã surpreende a comunidade científica. Em 2023, outra equipa já tinha detetado sinais de acetileno e cianoacetileno na atmosfera da lua. No ano seguinte, foram identificadas nuvens de benzeno em zonas próximas do polo norte.
-
-Agora, com a nova molécula, os astrónomos acreditam que Titã pode albergar uma química orgânica ainda mais rica do que se pensava. Alguns investigadores defendem mesmo que a lua pode ter formas de vida baseadas em metano, em vez de água, embora não existam provas concretas.
-
-<h2>Próximos passos</h2>
-
-A equipa vai agora cruzar os dados do James Webb com observações anteriores da sonda Cassini, que estudou Saturno e as suas luas entre 2004 e 2017. O objetivo é perceber se a molécula está distribuída de forma uniforme ou concentrada em determinadas zonas da atmosfera.
-
-Uma nova missão da NASA, a Dragonfly, deverá chegar a Titã em 2034. Trata-se de um drone robótico que vai sobrevoar a superfície da lua e recolher amostras em diferentes locais, incluindo crateras de impacto e leitos de lagos secos.
-
-"Se quisermos perceber como a vida pode surgir, Titã é o melhor laboratório que temos fora da Terra. E só agora estamos a começar a lê-lo", concluiu a investigadora.`},
-
 {id:18,titulo:"Descoberta arqueológica em Portugal revela vestígios de 5000 anos",resumo:"Escavações no Alentejo encontraram estruturas que podem reescrever a cronologia do povoamento pré-histórico.",categoria:"Ciência",regiao:"Europa",fonte:"Redação MundoAgora",horas:2,
 conteudo:`Uma equipa de arqueólogos portugueses anunciou a descoberta de um conjunto de estruturas em pedra com cerca de 5000 anos, no interior do Alentejo. Os vestígios incluem muros, fossos e o que parece ser uma área cerimonial, o que sugere a existência de comunidades organizadas muito antes do que se pensava até agora.
 
@@ -188,4 +161,51 @@ Ainda assim, os especialistas alertam que a prevenção continua a ser fundament
 Há também a preocupação com o custo. O novo medicamento deverá ser mais caro do que os tratamentos atuais, o que pode limitar o acesso em países com recursos limitados. A OMS está a negociar um preço acessível com o fabricante.
 
 Além disso, os investigadores alertam para a necessidade de monitorizar a resistência. "Nenhum medicamento é eterno. Se usarmos mal este tratamento, o parasita pode desenvolver resistência em poucos anos", avisou um dos autores do estudo.`}
+,
+{id:21,titulo:"Mocambique garante qualificacao historica para a Taca Africana das Nacoes",resumo:"Com uma vitoria por 2-1 fora de casa, os Mambas asseguram presenca na CAN pela terceira vez na historia.",categoria:"Desporto",regiao:"Africa",fonte:"Redacao Desporto",horas:1,
+conteudo:`A selecao mocambicana de futebol garantiu este domingo a qualificacao para a Taca Africana das Nacoes (CAN), apos vencer por 2-1 no estadio adversario, numa partida que ficara marcada na historia do futebol nacional.
+
+Com este resultado, os Mambas somam 13 pontos em seis jornadas e garantem matematicamente o apuramento com uma jornada de antecedencia. E a terceira vez que Mocambique consegue chegar a fase final da competicao continental, depois das participacoes em 1986, 1996 e 2010.
+
+O jogo comecou equilibrado, com as duas equipas a estudarem-se mutuamente nos primeiros minutos. A primeira oportunidade clara surgiu aos 18 minutos, num remate de fora da area que passou ligeiramente ao lado da baliza adversaria.
+
+<h2>Um jogo de nervos e superacao</h2>
+
+O marcador foi aberto aos 34 minutos, na sequencia de um canto bem executado pela direita. O defesa central mocambicano apareceu ao primeiro poste e cabecou para o fundo das redes, fazendo explodir de alegria os cerca de 200 adeptos mocambicanos presentes no estadio.
+
+O adversario reagiu e chegou ao empate aos 42 minutos, num lance de bola parada. O intervalo chegou com o resultado em 1-1, deixando tudo em aberto para a segunda parte.
+
+Aos 67 minutos, o selecionador mocambicano fez uma substituicao que se revelaria decisiva. Entrou um avancado rapido e tecnico, que mudou o ritmo do ataque. Cinco minutos depois, aos 72, chegou o golo da vitoria. Num contra-ataque conduzido pela esquerda, o novo avancado recebeu a bola na area, fintou o guarda-redes e fez o 2-1.
+
+A partir dai, a equipa mocambicana fechou-se bem atras e soube gerir o resultado ate ao apito final. O guarda-redes teve duas defesas importantes nos ultimos dez minutos, garantindo os tres pontos.
+
+<h2>Reacoes de euforia</h2>
+
+"Estamos a fazer historia. Estes jogadores deram tudo em campo e merecem esta qualificacao. Mocambique inteiro deve estar orgulhoso", declarou o selecionador na conferencia de imprensa apos o jogo.
+
+O capitao da equipa, visivelmente emocionado, tambem falou aos jornalistas: "Trabalhamos muito para este momento. Passamos por momentos dificeis, mas nunca desistimos. Esta qualificacao e para todo o povo mocambicano."
+
+Nas ruas de Maputo e de outras cidades do pais, houve celebracoes espontaneas apos o apito final. Milhares de pessoas sairam a rua com bandeiras e camisolas da selecao, num ambiente de festa que se prolongou pela noite.
+
+<h2>O caminho ate aqui</h2>
+
+A campanha de qualificacao de Mocambique foi marcada por altos e baixos. A equipa comecou com uma derrota fora de casa, mas recuperou com duas vitorias consecutivas em casa. Seguiu-se um empate dificil, antes das duas vitorias que selaram o apuramento.
+
+O selecionador apostou numa mistura de jogadores experientes que atuam no estrangeiro com jovens formados nos clubes nacionais. Essa aposta revelou-se acertada, com varios jovens a assumirem papeis importantes ao longo da campanha.
+
+<h2>O que esperar da CAN</h2>
+
+A fase final da Taca Africana das Nacoes vai decorrer no proximo ano, num pais ainda a confirmar. Mocambique vai integrar um dos grupos da competicao, que reunira as 24 melhores selecoes do continente.
+
+Os analistas consideram que Mocambique tem condicoes para passar a fase de grupos, algo que nunca conseguiu nas participacoes anteriores. A equipa devera defrontar adversarios de nivel medio na primeira fase, o que aumenta as esperancas de uma campanha historica.
+
+"Este grupo tem qualidade para competir com qualquer selecao africana. Vamos preparar-nos bem e dar o nosso melhor", garantiu o selecionador.
+
+<h2>Impacto para o futebol nacional</h2>
+
+A qualificacao devera ter um impacto positivo no futebol mocambicano. Os clubes nacionais esperam um aumento de assistencias e de receitas, e a federacao ja anunciou que vai investir mais na formacao de jovens.
+
+O governo, por sua vez, prometeu apoiar a preparacao da selecao para a fase final, com um pacote de investimento em infraestruturas e logistica.
+
+Para os adeptos, a qualificacao e motivo de orgulho e esperanca. Depois de anos de resultados irregulares, os Mambas voltam a estar entre os melhores de Africa, e o pais inteiro sonha com uma campanha memoravel na CAN.`}
 ];
