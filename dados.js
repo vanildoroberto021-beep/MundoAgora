@@ -161,4 +161,188 @@ No plano desportivo, a seleção nacional de futsal iniciou um estágio pré-com
 No futebol de onze, o Moçambola retomou com a disputa da 22.ª jornada. O Costa do Sol, treinado pelo português Horácio Gonçalves, venceu o Ferroviário de Lichinga por 2-0 e mantém-se na perseguição ao líder.
 
 Na saúde, Moçambique deu um passo decisivo na prevenção do HIV com a introdução do Lenacapavir e o lançamento do Guião de Prevenção Combinada Biomédica, uma medida que promete reforçar a luta contra a epidemia no país. O governo lançou também o Plano Nacional de Adaptação do Sector da Saúde às Mudanças Climáticas, com 45 ações previstas até 2030.`}
+,
+{id:23,titulo:"Banco Central Europeu mantém taxas de juro e alerta para riscos da inflação",resumo:"Decisão foi tomada por unanimidade e reflete a preocupação com a subida dos preços da energia.",categoria:"Economia",regiao:"Europa",fonte:"Redação MundoAgora",horas:1,
+conteudo:`O Banco Central Europeu (BCE) decidiu esta quinta-feira manter as taxas de juro inalteradas, numa reunião muito aguardada pelos mercados. A taxa de depósito continua nos 3,75%, enquanto a taxa de refinanciamento se mantém nos 4,25%.
+
+A decisão foi tomada por unanimidade pelo conselho de governadores, refletindo a preocupação com a subida dos preços da energia e a incerteza económica global. "A inflação continua acima do nosso objetivo e não podemos baixar a guarda", afirmou a presidente do BCE na conferência de imprensa.
+
+<h2>Contexto económico</h2>
+
+A zona euro registou no último trimestre um crescimento de apenas 0,2%, muito abaixo das previsões. A Alemanha, a maior economia do bloco, entrou em recessão técnica, com dois trimestres consecutivos de contração.
+
+Ao mesmo tempo, a inflação mantém-se nos 3,4%, ainda acima da meta de 2% definida pelo BCE. Os preços dos alimentos e da energia continuam a ser os principais responsáveis por esta pressão.
+
+"Estamos num equilíbrio delicado. Se baixarmos as taxas demasiado cedo, a inflação pode voltar a subir. Se as mantivermos demasiado tempo, podemos sufocar o crescimento", explicou um analista do setor bancário.
+
+<h2>Reações dos mercados</h2>
+
+Os mercados europeus reagiram com moderação à decisão. O índice Stoxx 600 fechou em alta de 0,3%, enquanto o euro se manteve estável face ao dólar. Os analistas esperavam esta decisão e já antecipam um possível corte de taxas apenas no final do ano.
+
+"O BCE está a ganhar tempo. Quer ver como a economia evolui antes de tomar decisões mais arriscadas", comentou um economista de um banco de investimento.
+
+<h2>Impacto para os cidadãos</h2>
+
+Para os cidadãos europeus, a manutenção das taxas significa que os créditos habitação e os empréstimos pessoais continuam caros. As prestações da casa mantêm-se elevadas, pressionando o orçamento das famílias.
+
+Por outro lado, os depositantes continuam a beneficiar de juros mais altos nas poupanças, algo que não acontecia há mais de uma década.
+
+<h2>Próximos passos</h2>
+
+A próxima reunião do BCE está marcada para dentro de seis semanas. Até lá, os governadores vão continuar a monitorizar os indicadores de inflação, o crescimento económico e a evolução do mercado de trabalho.
+
+A maioria dos analistas aponta para um corte de 0,25 pontos percentuais no final do ano, caso a inflação continue a descer. No entanto, tudo dependerá da evolução da situação geopolítica e dos preços da energia.`}
+,
+{id:24,titulo:"União Europeia aprova lei histórica para regular inteligência artificial",resumo:"Nova legislação classifica sistemas de IA por nível de risco e impõe multas pesadas para infrações.",categoria:"Tecnologia",regiao:"Europa",fonte:"Redação MundoAgora",horas:1,
+conteudo:`O Parlamento Europeu aprovou esta quarta-feira, por larga maioria, a Lei da Inteligência Artificial (AI Act), a primeira legislação abrangente do mundo para regular sistemas de IA. O texto foi aprovado com 523 votos a favor, 46 contra e 49 abstenções.
+
+A nova lei classifica os sistemas de inteligência artificial em quatro níveis de risco: inaceitável, alto, limitado e mínimo. As aplicações consideradas de risco inaceitável, como a vigilância biométrica em massa, ficam proibidas na União Europeia.
+
+<h2>O que muda na prática</h2>
+
+Para os sistemas de alto risco, como os usados em diagnósticos médicos, seleção de pessoal ou concessão de crédito, a lei exige auditorias regulares, transparência nos algoritmos e supervisão humana obrigatória.
+
+As empresas que não cumprirem as regras enfrentam multas que podem chegar aos 35 milhões de euros ou 7% do volume de negócios anual, o que for mais elevado.
+
+"Esta lei não é contra a inovação. É a favor de uma inovação responsável, que sirva as pessoas e não as prejudique", declarou a relatora do texto no Parlamento Europeu.
+
+<h2>Reações divergentes</h2>
+
+As grandes tecnológicas reagiram com preocupação. A associação que representa as principais empresas do setor alertou que a lei "pode travar a competitividade da Europa face aos Estados Unidos e à China".
+
+Por outro lado, as organizações de defesa dos direitos digitais aplaudiram a medida. "Durante anos, a IA desenvolveu-se sem regras. Agora temos um quadro legal que protege os cidadãos", afirmou um responsável de uma ONG europeia.
+
+<h2>Impacto global</h2>
+
+A lei europeia deverá ter impacto muito além das fronteiras da União. Tal como aconteceu com o RGPD na proteção de dados, espera-se que as empresas globais adoptem estas regras como padrão para todos os mercados, para evitar sistemas diferentes em cada região.
+
+Os Estados Unidos e a China estão a preparar as suas próprias legislações, mas ainda sem a abrangência da lei europeia. "A Europa está a liderar o caminho. É uma oportunidade para definirmos os padrões globais", comentou um especialista em política digital.
+
+<h2>Prazos de implementação</h2>
+
+A lei entra em vigor em 2026, mas a aplicação será faseada. As proibições de sistemas de risco inaceitável aplicam-se imediatamente. As obrigações para sistemas de alto risco só entram em vigor dentro de 24 meses, para dar tempo às empresas para se adaptarem.
+
+As autoridades nacionais de cada país terão de criar organismos de supervisão até ao final do próximo ano.`}
+,
+{id:25,titulo:"Astrónomos descobrem exoplaneta que pode ter oceanos de água líquida",resumo:"O planeta orbita na zona habitável da sua estrela e é o candidato mais promissor para encontrar vida fora da Terra.",categoria:"Ciência",regiao:"Mundo",fonte:"Redação MundoAgora",horas:1,
+conteudo:`Uma equipa internacional de astrónomos anunciou a descoberta de um exoplaneta que pode ter oceanos de água líquida à superfície, reforçando a esperança de encontrar vida fora do sistema solar. O planeta, denominado TOI-1452 b, orbita uma estrela anã a 100 anos-luz da Terra.
+
+Com um raio 70% maior que o da Terra, o TOI-1452 b é classificado como uma "super-Terra". A sua densidade sugere que pode ser composto por rocha e água, com um oceano profundo que poderia cobrir grande parte da superfície.
+
+<h2>Como foi descoberto</h2>
+
+A descoberta foi possível graças ao telescópio espacial TESS, da NASA, que deteta planetas ao observar pequenas variações no brilho das estrelas. Quando um planeta passa em frente da sua estrela, bloqueia uma pequena parte da luz, permitindo aos cientistas calcular o seu tamanho e órbita.
+
+Posteriormente, observações com o telescópio James Webb permitiram analisar a atmosfera do planeta e confirmar a presença de vapor de água. "Foi um trabalho de equipa que envolveu observações de vários telescópios em todo o mundo", explicou a investigadora principal do estudo.
+
+<h2>Um candidato promissor</h2>
+
+O TOI-1452 b orbita dentro da zona habitável da sua estrela, a região onde as temperaturas permitem a existência de água líquida. A sua estrela é uma anã vermelha, menor e mais fria que o Sol, o que significa que o planeta pode manter temperaturas amenas apesar de estar muito mais próximo da estrela.
+
+"Este é um dos candidatos mais promissores que já encontrámos. Tem o tamanho certo, a órbita certa e a temperatura certa", afirmou um dos astrónomos envolvidos.
+
+<h2>Próximos passos</h2>
+
+A equipa vai agora continuar a observar o planeta com o telescópio James Webb, com o objetivo de analisar a composição completa da atmosfera e procurar sinais de atividade biológica, como oxigénio ou metano.
+
+No entanto, os cientistas pedem cautela. "Detetar água é importante, mas não é prova de vida. Precisamos de muito mais dados antes de tirar conclusões", alertou a investigadora principal.
+
+<h2>Uma nova era na astronomia</h2>
+
+Esta descoberta faz parte de uma vaga de resultados científicos que estão a transformar a astronomia. Nos últimos cinco anos, foram identificados mais de 5.500 exoplanetas, e os telescópios da nova geração estão a permitir análises cada vez mais detalhadas.
+
+"Estamos a viver a idade de ouro da exploração de exoplanetas. Nas próximas décadas, é provável que encontremos sinais fortes de vida fora da Terra", afirmou um astrofísico de renome internacional.`}
+,
+{id:26,titulo:"Festival de cinema de Cannes anuncia seleção oficial com forte presença africana",resumo:"Pela primeira vez, três filmes de realizadores africanos competem pela Palma de Ouro.",categoria:"Cultura",regiao:"Mundo",fonte:"Redação MundoAgora",horas:1,
+conteudo:`O Festival de Cinema de Cannes anunciou esta segunda-feira a seleção oficial para a sua 79.ª edição, que decorrerá em maio. Pela primeira vez na história do festival, três filmes realizados por cineastas africanos competem pela Palma de Ouro.
+
+Os filmes selecionados vêm de Moçambique, Senegal e Nigéria, refletindo a crescente visibilidade do cinema africano no panorama internacional. "É um momento histórico para o cinema do continente", afirmou o diretor artístico do festival.
+
+<h2>Os filmes selecionados</h2>
+
+O primeiro filme, intitulado "Terra Vermelha", é uma produção moçambicana realizada por uma cineasta estreante. Conta a história de uma família que luta para sobreviver num bairro de lata de Maputo, explorando temas como pobreza, esperança e resistência.
+
+O segundo, uma coprodução senegalesa-francesa, chama-se "O Silêncio das Marés" e aborda a migração clandestina através do Mediterrâneo, a partir da perspetiva de uma mãe que perde o filho na travessia.
+
+O terceiro filme, uma produção nigeriana, é uma comédia dramática sobre um jovem que tenta escapar ao casamento arranjado pela família, misturando tradição e modernidade.
+
+<h2>Reações da crítica</h2>
+
+A imprensa especializada aplaudiu a decisão do festival. "Cannes está finalmente a reconhecer o enorme talento dos cineastas africanos. Estes filmes trazem novas vozes e novas histórias ao cinema mundial", escreveu um crítico de cinema.
+
+Os realizadores manifestaram a sua satisfação. "É uma honra representar Moçambique num festival tão prestigiado. Espero que este seja o início de uma nova era para o cinema africano", declarou a cineasta moçambicana.
+
+<h2>Impacto para o cinema africano</h2>
+
+A presença africana em Cannes deverá ter um impacto significativo na indústria cinematográfica do continente. Os produtores esperam um aumento de investimento e de distribuição internacional para filmes africanos.
+
+"Durante décadas, o cinema africano foi marginalizado nos grandes festivais. Agora estamos a ver uma mudança", comentou um produtor senegalês. "Espero que isto abra portas para muitos outros realizadores."
+
+<h2>O festival</h2>
+
+O Festival de Cinema de Cannes é um dos mais prestigiados do mundo, realizado anualmente na cidade francesa de Cannes. A Palma de Ouro, o prémio máximo, é atribuída ao melhor filme da competição oficial.
+
+A 79.ª edição decorrerá de 12 a 23 de maio e contará com a presença de estrelas internacionais, realizadores consagrados e milhares de jornalistas de todo o mundo.`}
+,
+{id:27,titulo:"Novo tratamento contra o cancro mostra resultados promissores em ensaios clínicos",resumo:"Terapia experimental eliminou tumores em 40% dos pacientes com cancro avançado num estudo de fase II.",categoria:"Saúde",regiao:"Mundo",fonte:"Redação MundoAgora",horas:1,
+conteudo:`Um novo tratamento experimental contra o cancro mostrou resultados promissores num ensaio clínico de fase II, eliminando tumores em 40% dos pacientes com cancro avançado. O estudo envolveu 250 pacientes com diferentes tipos de tumor, incluindo cancro do pulmão, mama e cólon.
+
+O tratamento combina imunoterapia com uma nova classe de medicamentos que ativam o sistema imunitário de forma mais direcionada. Os resultados foram publicados numa das principais revistas médicas internacionais e apresentados numa conferência de oncologia em Chicago.
+
+<h2>Como funciona</h2>
+
+A nova terapia atua em duas frentes. Por um lado, estimula as células T do sistema imunitário a reconhecer e atacar as células cancerígenas. Por outro, bloqueia os mecanismos que os tumores usam para escapar ao sistema imunitário.
+
+"É como dar ao sistema imunitário um mapa detalhado do inimigo e, ao mesmo tempo, retirar-lhe as armadilhas que o impedem de agir", explicou o investigador principal do estudo.
+
+<h2>Resultados do ensaio</h2>
+
+Dos 250 pacientes envolvidos, 100 (40%) apresentaram remissão completa, ou seja, os tumores desapareceram. Outros 75 (30%) registaram uma redução significativa do tamanho dos tumores. Os restantes 75 não responderam ao tratamento.
+
+Os efeitos secundários foram considerados aceitáveis. Os mais comuns foram febre, fadiga e reações cutâneas, todos controláveis com medicação de apoio. Não foram registados casos graves de toxicidade.
+
+<h2>Reações da comunidade médica</h2>
+
+Os oncologistas reagiram com otimismo moderado. "Os resultados são encorajadores, mas precisamos de mais estudos para confirmar a eficácia a longo prazo", afirmou um especialista de um centro oncológico europeu.
+
+"É um passo importante, mas não é a cura do cancro. Cada tipo de tumor responde de forma diferente e ainda há muito a investigar", acrescentou outro médico.
+
+<h2>Próximos passos</h2>
+
+Os investigadores vão agora iniciar um ensaio de fase III, com mais de 1.000 pacientes em vários países. Se os resultados se confirmarem, o tratamento poderá ser aprovado pelas autoridades reguladoras dentro de três a quatro anos.
+
+A equipa está também a estudar a combinação desta terapia com outros tratamentos existentes, como a quimioterapia e a radioterapia, para ver se os resultados melhoram ainda mais.`}
+,
+{id:28,titulo:"Cimeira da União Africana debate integração económica e segurança regional",resumo:"Líderes africanos reúnem-se para discutir a criação de uma zona de comércio livre e a luta contra o terrorismo.",categoria:"Política",regiao:"África",fonte:"Redação MundoAgora",horas:1,
+conteudo:`Os chefes de Estado da União Africana reuniram-se esta semana na capital etíope, Adis Abeba, para a 38.ª cimeira da organização. O encontro, que decorreu ao longo de três dias, teve como temas centrais a integração económica do continente e a luta contra o terrorismo.
+
+A cimeira contou com a presença de mais de 40 chefes de Estado e de governo, além de representantes de organizações internacionais. O presidente da Comissão da União Africana abriu a sessão com um apelo à unidade e à ação conjunta.
+
+<h2>Zona de comércio livre</h2>
+
+Um dos temas mais debatidos foi a implementação da Zona de Comércio Livre Continental Africana (AfCFTA), que deverá criar o maior mercado comum do mundo, com mais de 1,3 mil milhões de consumidores.
+
+Até ao momento, 47 países ratificaram o acordo, mas a implementação prática tem sido lenta. "Precisamos de acelerar. Os benefícios só serão visíveis quando as barreiras alfandegárias forem efetivamente eliminadas", afirmou um responsável da comissão.
+
+Vários líderes defenderam a criação de fundos de investimento conjuntos para financiar infraestruturas, como estradas, caminhos-de-ferro e portos, que são essenciais para o comércio intra-africano.
+
+<h2>Luta contra o terrorismo</h2>
+
+A segurança foi o outro grande tema da cimeira. Os ataques terroristas em várias regiões do continente, especialmente no Sahel e no norte de Moçambique, continuam a preocupar os líderes africanos.
+
+Foi aprovada a criação de uma força conjunta de intervenção rápida, que poderá ser mobilizada em situações de emergência. A força será composta por contingentes de vários países e terá apoio logístico da União Africana e das Nações Unidas.
+
+"O terrorismo não conhece fronteiras. Só com uma resposta coordenada podemos derrotá-lo", afirmou o presidente de um dos países mais afetados.
+
+<h2>Moçambique na cimeira</h2>
+
+Moçambique esteve representado na cimeira pelo seu presidente, que defendeu a necessidade de mais apoio internacional para combater os grupos armados na província de Cabo Delgado.
+
+O presidente moçambicano apelou à criação de um fundo internacional para a reconstrução das zonas afetadas e para o apoio às populações deslocadas. "A paz e a estabilidade são condições essenciais para o desenvolvimento", afirmou.
+
+<h2>Declaração final</h2>
+
+No final da cimeira, os líderes africanos aprovaram uma declaração conjunta que reafirma o compromisso com a integração económica, a paz e a segurança no continente.
+
+A próxima cimeira está marcada para o próximo ano, num país ainda a confirmar. Até lá, os ministros dos Negócios Estrangeiros reunir-se-ão regularmente para acompanhar a implementação das decisões tomadas.`}
 ];
