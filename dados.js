@@ -63,28 +63,6 @@ A tendência é de que o mercado continue volátil até a definição do próxim
 Os investidores institucionais mantêm-se em alerta máximo. A volatilidade dos preços e a incerteza nas políticas económicas levam muitas empresas a adiar decisões de investimento de grande escala, o que pode abrandar a recuperação económica nos próximos trimestres.
 
 Especialistas financeiros recomendam uma estratégia prudente. "É momento de diversificar e olhar para ativos de refúgio", explica um consultor de investimentos. A evolução das próximas semanas será crucial para determinar a tendência do mercado a longo prazo.`},
-{id:5,titulo:"Petróleo dispara e pressiona mercados globais",resumo:"Preço do barril de petróleo ultrapassa os US$ 112, afetando bolsas e inflação.",categoria:"Economia",regiao:"Mundo",fonte:"Redação MundoAgora",horas:5,imagem:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Oil_pumpjack_in_Texas.jpg/800px-Oil_pumpjack_in_Texas.jpg",
-conteudo:`O preço do petróleo registou uma forte alta nesta sexta-feira (23), com o barril a ultrapassar os US$ 112. A escalada é atribuída a tensões geopolíticas no Oriente Médio e à redução da oferta global por parte dos principais países produtores.
-
-A alta do petróleo pressiona as bolsas de valores em todo o mundo e aumenta as expectativas de inflação. Nos Estados Unidos, os índices de atividade económica e os dados de sentimento do consumidor também entraram no radar.
-
-<h2>Impacto no Brasil</h2>
-
-No Brasil, a Petrobras acompanha a valorização da commodity. Analistas alertam que a alta pode impactar os preços dos combustíveis nas próximas semanas, pressionando ainda mais o orçamento das famílias.
-
-A OPEP+ já sinalizou que pode intervir para estabilizar os preços, mas nenhuma medida concreta foi anunciada até ao momento.
-
-<h2>Reunião de Emergência da OPEP+</h2>
-
-Os ministros da energia dos países membros da OPEP+ estão reunidos de emergência para discutir o aumento da produção. Fontes indicam que um acordo pode ser anunciado nas próximas horas para tentar acalmar os mercados. "Não podemos permitir que a especulação destrua a economia global", afirmou um dos delegados presentes.
-
-Enquanto isso, nos postos de combustível, os consumidores já sentem o impacto. Em algumas capitais europeias, o preço da gasolina atingiu o valor mais alto dos últimos dois anos, levando a protestos de camionistas e transportadores.
-
-<h2>Perspetivas do Mercado</h2>
-
-Os investidores institucionais mantêm-se em alerta máximo. A volatilidade dos preços e a incerteza nas políticas económicas levam muitas empresas a adiar decisões de investimento de grande escala, o que pode abrandar a recuperação económica nos próximos trimestres.
-
-Especialistas financeiros recomendam uma estratégia prudente. "É momento de diversificar e olhar para ativos de refúgio", explica um consultor de investimentos. A evolução das próximas semanas será crucial para determinar a tendência do mercado a longo prazo.`},
 {id:6,titulo:"Google Cloud lança modelos Claude da Anthropic para empresas",resumo:"Parceria entre Google e Anthropic amplia oferta de inteligência artificial.",categoria:"Tecnologia",regiao:"Mundo",fonte:"Redação MundoAgora",horas:6,imagem:"https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=900&q=80",
 conteudo:`O Google anunciou nesta sexta-feira (23) o lançamento de modelos Claude, da Anthropic, no Google Cloud. A medida amplia a oferta de soluções de inteligência artificial generativa para empresas e marca uma nova fase na parceria.
 
