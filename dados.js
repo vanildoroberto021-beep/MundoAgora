@@ -345,4 +345,37 @@ O presidente moçambicano apelou à criação de um fundo internacional para a r
 No final da cimeira, os líderes africanos aprovaram uma declaração conjunta que reafirma o compromisso com a integração económica, a paz e a segurança no continente.
 
 A próxima cimeira está marcada para o próximo ano, num país ainda a confirmar. Até lá, os ministros dos Negócios Estrangeiros reunir-se-ão regularmente para acompanhar a implementação das decisões tomadas.`}
+,
+{id:29,titulo:"Cientistas alcançam marco histórico na fusão nuclear",resumo:"Experimento europeu manteve plasma estável por tempo recorde, aproximando a humanidade da energia limpa e ilimitada.",categoria:"Ciência",regiao:"Mundo",fonte:"Redação MundoAgora",horas:1,
+conteudo:`Um consórcio internacional de cientistas anunciou esta terça-feira um avanço histórico na investigação da fusão nuclear. O reator experimental europeu, localizado no sul de França, conseguiu manter um plasma de hidrogénio estável durante 1.337 segundos (mais de 22 minutos), batendo o recorde anterior por uma margem significativa.
+
+A fusão nuclear é o processo que alimenta o Sol e as estrelas. Ao contrário da fissão nuclear (usada nas atuais centrais nucleares), a fusão não produz resíduos radioativos de longa duração e liberta uma quantidade de energia gigantesca. O grande desafio tem sido replicar e controlar este processo na Terra.
+
+<h2>O que foi alcançado</h2>
+
+O feito foi realizado no reator Tokamak, uma máquina em forma de anel que utiliza campos magnéticos superpotentes para confinar o plasma (um gás superaquecido) a temperaturas superiores às do centro do Sol (cerca de 150 milhões de graus Celsius).
+
+"Manter o plasma estável durante tanto tempo é um passo crucial. Significa que estamos a compreender melhor como controlar esta reação sem que as paredes do reator sejam destruídas", explicou o diretor do projeto durante a conferência de imprensa.
+
+<h2>Porque é importante</h2>
+
+Se a fusão nuclear for dominada em escala comercial, a humanidade terá acesso a uma fonte de energia praticamente inesgotável. O combustível principal pode ser extraído da água do mar, e não há emissões de gases com efeito de estufa.
+
+A energia de fusão mudaria o panorama geopolítico global. Países deixariam de depender de petróleo e gás de outras nações, e a crise climática poderia ser travada de forma definitiva.
+
+<h2>Desafios para o futuro</h2>
+
+Apesar do otimismo, os cientistas alertam que ainda faltam décadas para que a fusão nuclear chegue às nossas tomadas. O reator atual ainda consome mais energia do que aquela que produz.
+
+O próximo grande passo é o projeto ITER, um reator ainda maior que está a ser construído em França e que deverá provar, pela primeira vez, que a fusão pode gerar mais energia do que consome (o chamado "ganho líquido de energia"). As primeiras operações com combustível de fusão estão previstas para 2035.
+
+<h2>A corrida tecnológica global</h2>
+
+A Europa lidera a pesquisa pública, mas os Estados Unidos e a China estão a investir milhares de milhões de dólares em empresas privadas de fusão nuclear. Várias startups prometem protótipos comerciais na próxima década.
+
+"Estamos a viver o momento mais emocionante da física desde a chegada do homem à Lua. A fusão deixou de ser ficção científica e passou a ser um problema de engenharia", afirmou um dos físicos presentes no projeto.
+
+<h2>O que se segue</h2>
+
+A equipa vai agora analisar os dados recolhidos para melhorar os sistemas de resfriamento e os ímãs do reator. A próxima ronda de experiências deverá ocorrer no final do ano, com o objetivo de ultrapassar a marca dos 25 minutos de estabilidade.`}
 ];
