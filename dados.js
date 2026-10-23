@@ -63,7 +63,7 @@ A tendência é de que o mercado continue volátil até a definição do próxim
 Os investidores institucionais mantêm-se em alerta máximo. A volatilidade dos preços e a incerteza nas políticas económicas levam muitas empresas a adiar decisões de investimento de grande escala, o que pode abrandar a recuperação económica nos próximos trimestres.
 
 Especialistas financeiros recomendam uma estratégia prudente. "É momento de diversificar e olhar para ativos de refúgio", explica um consultor de investimentos. A evolução das próximas semanas será crucial para determinar a tendência do mercado a longo prazo.`},
-{id:5,titulo:"Petróleo dispara e pressiona mercados globais",resumo:"Preço do barril de petróleo ultrapassa os US$ 112, afetando bolsas e inflação.",categoria:"Economia",regiao:"Mundo",fonte:"Redação MundoAgora",horas:5,imagem:"https://images.unsplash.com/photo-1611273426858-450e013a89c7?auto=format&fit=crop&w=900&q=80",
+{id:5,titulo:"Petróleo dispara e pressiona mercados globais",resumo:"Preço do barril de petróleo ultrapassa os US$ 112, afetando bolsas e inflação.",categoria:"Economia",regiao:"Mundo",fonte:"Redação MundoAgora",horas:5,imagem:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Oil_pumpjack_in_Texas.jpg/800px-Oil_pumpjack_in_Texas.jpg",
 conteudo:`O preço do petróleo registou uma forte alta nesta sexta-feira (23), com o barril a ultrapassar os US$ 112. A escalada é atribuída a tensões geopolíticas no Oriente Médio e à redução da oferta global por parte dos principais países produtores.
 
 A alta do petróleo pressiona as bolsas de valores em todo o mundo e aumenta as expectativas de inflação. Nos Estados Unidos, os índices de atividade económica e os dados de sentimento do consumidor também entraram no radar.
