@@ -1,152 +1,252 @@
 const ARTIGOS = [
-{id:1,titulo:"Cimeira global chega a acordo histórico sobre energia limpa",resumo:"Líderes de 50 países prometem triplicar investimento em renováveis até 2030.",categoria:"Mundo",regiao:"Mundo",fonte:"Redação MundoAgora",horas:1,destaque:true,
-conteudo:`A cimeira internacional sobre energia chegou esta sexta-feira a um consenso histórico. Os países participantes acordaram triplicar o investimento global em energias renováveis até ao final da década.
+{id:1,titulo:"Lula e Flávio Bolsonaro empatam tecnicamente a dois dias das eleições",resumo:"Pesquisa Vox Brasil mostra Lula com 50,6% e Flávio Bolsonaro com 49,4% das intenções de voto.",categoria:"Política",regiao:"América",fonte:"Redação MundoAgora",horas:1,destaque:true,
+conteudo:`A dois dias do segundo turno das eleições presidenciais brasileiras, uma nova pesquisa Vox Brasil revelou um empate técnico entre o presidente Luiz Inácio Lula da Silva (PT) e o senador Flávio Bolsonaro (PL). Lula aparece com 50,6% das intenções de voto, enquanto Flávio tem 49,4%.
 
-<h2>O acordo</h2>
+<h2>Margem de erro</h2>
 
-O documento final estabelece metas obrigatórias para a redução do uso de carvão e apoia a transição energética nos países em desenvolvimento. A presidente da cimeira afirmou que este é "o dia mais importante para o clima desde o Acordo de Paris".`},
-{id:2,titulo:"Novo avanço na inteligência artificial promete revolucionar a medicina",resumo:"Modelo de IA consegue prever a estrutura de proteínas em segundos, acelerando a criação de vacinas.",categoria:"Tecnologia",regiao:"Mundo",fonte:"Redação MundoAgora",horas:2,
-conteudo:`Investigadores apresentaram um novo modelo de inteligência artificial que pode prever a estrutura de qualquer proteína em poucos segundos. A descoberta promete acelerar drasticamente o desenvolvimento de novos medicamentos e vacinas.
+A pesquisa tem margem de erro de 2 pontos percentuais para mais ou para menos. O cenário de instabilidade política tem gerado cautela nos mercados financeiros.
 
-<h2>Impacto na saúde</h2>
+<h2>Último debate</h2>
 
-Especialistas acreditam que a ferramenta pode ajudar a combater doenças como o cancro e a malária. O modelo será disponibilizado gratuitamente para investigadores de todo o mundo.`},
-{id:3,titulo:"Fusão nuclear: o sonho da energia infinita está mais perto",resumo:"Reator experimental mantém plasma estável por tempo recorde, aproximando a energia das estrelas.",categoria:"Ciência",regiao:"Mundo",fonte:"Redação MundoAgora",horas:3,
-conteudo:`Um consórcio internacional anunciou um avanço histórico na fusão nuclear. O reator experimental na Europa manteve um plasma estável durante mais de 20 minutos, batendo todos os recordes anteriores.
+Os dois candidatos se enfrentam nesta sexta-feira (23) no último debate televisionado, organizado pela TV Globo. O confronto é aguardado como decisivo para os eleitores indecisos.`},
+{id:2,titulo:"Debate na Globo marca reta final da corrida presidencial no Brasil",resumo:"Lula e Flávio Bolsonaro se enfrentam nesta sexta-feira (23) em debate decisivo transmitido pela TV Globo.",categoria:"Política",regiao:"América",fonte:"Redação MundoAgora",horas:2,
+conteudo:`A TV Globo realiza nesta sexta-feira (23 de outubro de 2026) o último debate entre os candidatos à Presidência do Brasil, o presidente Lula e o senador Flávio Bolsonaro. O evento está marcado para as 21h20, horário de Brasília.
 
-<h2>Uma nova era energética</h2>
+<h2>Expectativas</h2>
 
-A fusão nuclear não produz resíduos radioativos e o seu combustível pode ser extraído da água do mar. Apesar do otimismo, os cientistas alertam que ainda faltam décadas para que a tecnologia chegue às nossas casas.`},
-{id:4,titulo:"Moçambique faz história e qualifica-se para a Taça Africana",resumo:"Mambas vencem fora de casa e garantem presença no maior torneio de futebol do continente.",categoria:"Desporto",regiao:"África",fonte:"Redação MundoAgora",horas:4,
-conteudo:`A seleção moçambicana de futebol garantiu este domingo a qualificação para a Taça Africana das Nações. Os Mambas venceram por 2-1 num jogo emocionante fora de casa.
+O debate é a última oportunidade para os candidatos apresentarem suas propostas e tentarem conquistar os eleitores indecisos. As campanhas prometem confrontos duros, especialmente sobre economia e políticas sociais.
 
-<h2>Festa nacional</h2>
+<h2>Regras</h2>
 
-O país parou para assistir ao jogo e as ruas de Maputo encheram-se de adeptos a celebrar. É a terceira vez na história que Moçambique consegue chegar à fase final da competição.`},
-{id:5,titulo:"Nova vacina contra a malária mostra 95% de eficácia em crianças",resumo:"Estudo realizado em quatro países africanos traz esperança para o combate à doença.",categoria:"Saúde",regiao:"África",fonte:"Redação MundoAgora",horas:5,
-conteudo:`Um novo ensaio clínico revelou que uma vacina experimental contra a malária tem uma eficácia de 95% em crianças. O estudo foi realizado em Moçambique, Quénia, Tanzânia e Malawi.
+O formato do debate inclui blocos temáticos e perguntas entre os candidatos. A transmissão será feita ao vivo para todo o país.`},
+{id:3,titulo:"Real Time Big Data: Flávio Bolsonaro tem 52% dos votos válidos contra 48% de Lula",resumo:"Nova pesquisa mostra empate técnico na disputa pelo segundo turno das eleições brasileiras.",categoria:"Política",regiao:"América",fonte:"Redação MundoAgora",horas:3,
+conteudo:`A pesquisa Real Time Big Data divulgada nesta sexta-feira (23) aponta que o senador Flávio Bolsonaro (PL) tem 52% dos votos válidos, contra 48% do presidente Lula (PT). Considerando os votos totais, os candidatos estão tecnicamente empatados.
 
-<h2>Esperança para o continente</h2>
+<h2>Rejeição</h2>
 
-A malária continua a ser uma das principais causas de morte em África. A Organização Mundial de Saúde já manifestou interesse em aprovar a vacina para distribuição em larga escala.`},
-{id:6,titulo:"Eleições europeias: nova coligação promete mudar o rumo da União",resumo:"Partidos de centro-esquerda e liberais chegam a acordo para formar governo.",categoria:"Política",regiao:"Europa",fonte:"Redação MundoAgora",horas:6,
-conteudo:`Após semanas de negociações, os partidos europeus chegaram a um acordo para formar uma nova coligação. O pacto foca-se na transição digital, na defesa e na criação de empregos verdes.
+A rejeição ao atual presidente Lula foi de 36%, enquanto 33% dizem rejeitar o filho do ex-presidente Jair Bolsonaro. A pesquisa ouviu 2.000 eleitores em todo o país.
 
-<h2>Desafios pela frente</h2>
+<h2>Votação de domingo</h2>
 
-A nova coligação enfrenta o desafio de lidar com a subida da inflação e com a crise migratória. O novo governo tomará posse na próxima semana.`},
-{id:7,titulo:"Desflorestação na Amazónia cai para o nível mais baixo em 10 anos",resumo:"Medidas de fiscalização rigorosas resultam numa redução de 40% no abate de árvores.",categoria:"Ambiente",regiao:"América",fonte:"Redação MundoAgora",horas:7,
-conteudo:`Dados de satélite revelaram que a desflorestação na floresta amazónica caiu 40% no último ano. É o valor mais baixo da última década.
+O segundo turno está marcado para este domingo, 25 de outubro. As urnas abrem às 8h e fecham às 17h, horário de Brasília.`},
+{id:4,titulo:"Dólar sobe e Ibovespa cai em dia de cautela eleitoral",resumo:"Mercado financeiro brasileiro reage a pesquisas e à expectativa pelo debate desta sexta-feira.",categoria:"Economia",regiao:"América",fonte:"Redação MundoAgora",horas:4,
+conteudo:`O dólar abriu em alta de 0,22%, cotado a R$ 5,038, enquanto o Ibovespa caiu 1,15%, aos 204.120 pontos, na sessão desta sexta-feira (23). A cautela dos investidores reflete a proximidade do segundo turno das eleições presidenciais.
 
-<h2>Vitória ambiental</h2>
+<h2>IPCA-15</h2>
 
-O governo atribui a queda ao aumento da fiscalização e à aplicação de multas pesadas. No entanto, os ambientalistas alertam que a floresta continua ameaçada por incêndios criminosos.`},
-{id:8,titulo:"Missão espacial chinesa recolhe amostras do lado oculto da Lua",resumo:"Sonda regressa à Terra com material que pode revelar segredos sobre a origem do sistema solar.",categoria:"Ciência",regiao:"Ásia",fonte:"Redação MundoAgora",horas:8,
-conteudo:`A China tornou-se o primeiro país a recolher com sucesso amostras do lado oculto da Lua. A sonda aterrou em segurança e o material recolhido será agora analisado por cientistas.
+O mercado também aguarda a divulgação do IPCA-15 de outubro, que será divulgado às 9h pelo IBGE. Em setembro, o indicador subiu 0,70% na comparação mensal e acumulou alta de 4,47% em 12 meses.
 
-<h2>Novas descobertas</h2>
+<h2>Exterior</h2>
 
-As rochas lunares podem ajudar a explicar por que razão os dois lados da Lua são tão diferentes. A missão é considerada um marco na exploração espacial chinesa.`},
-{id:9,titulo:"Startups africanas atraem recorde de 6 mil milhões em investimento",resumo:"Setor das tecnologias financeiras lidera a captação de fundos no continente.",categoria:"Economia",regiao:"África",fonte:"Redação MundoAgora",horas:9,
-conteudo:`As startups africanas bateram um novo recorde ao atrair 6 mil milhões de dólares em investimento. O setor das fintech (tecnologia financeira) foi o mais beneficiado.
+No exterior, a disparada do petróleo e as perdas das bolsas de Nova York, especialmente no setor de tecnologia, pressionaram os ativos de risco.`},
+{id:5,titulo:"Petróleo dispara e pressiona mercados globais",resumo:"Preço do barril de petróleo ultrapassa os US$ 112, afetando bolsas e expectativas de inflação.",categoria:"Economia",regiao:"Mundo",fonte:"Redação MundoAgora",horas:5,
+conteudo:`O preço do petróleo registou uma forte alta nesta sexta-feira (23), com o barril a ultrapassar os US$ 112. A escalada é atribuída a tensões geopolíticas no Oriente Médio e à redução da oferta global.
 
-<h2>O caso de sucesso</h2>
+<h2>Impacto global</h2>
 
-Países como a Nigéria, Quénia e África do Sul lideram a tabela. Os investidores internacionais mostram-se cada vez mais confiantes no potencial do mercado africano.`},
-{id:10,titulo:"Final da Liga dos Campeões bate recorde de audiência global",resumo:"Mais de 500 milhões de pessoas assistiram à vitória dramática nos penáltis.",categoria:"Desporto",regiao:"Europa",fonte:"Redação MundoAgora",horas:10,
-conteudo:`A final da Liga dos Campeões foi vista por mais de 500 milhões de pessoas em todo o mundo. O jogo foi decidido apenas na lotaria dos penáltis.
+A alta do petróleo pressiona as bolsas de valores em todo o mundo e aumenta as expectativas de inflação. Nos Estados Unidos, os índices de atividade econômica e os dados de sentimento do consumidor também entraram no radar dos investidores.
 
-<h2>Celebração nas ruas</h2>
+<h2>Brasil</h2>
 
-Milhares de adeptos do clube vencedor saíram às ruas para celebrar o título. O treinador da equipa vencedora dedicou a vitória a todos os fãs.`},
-{id:11,titulo:"Japão aprova lei para regular carros autónomos nas estradas",resumo:"Nova legislação permite a circulação de veículos sem condutor em áreas urbanas.",categoria:"Tecnologia",regiao:"Ásia",fonte:"Redação MundoAgora",horas:11,
-conteudo:`O governo japonês aprovou uma lei inovadora que permite a circulação de carros autónomos de nível 4 nas estradas do país. A medida visa resolver a falta de motoristas.
+No Brasil, a Petrobras acompanha a valorização da commodity. Analistas alertam que a alta pode impactar os preços dos combustíveis nas próximas semanas.`},
+{id:6,titulo:"Google Cloud lança modelos Claude da Anthropic para empresas",resumo:"Parceria entre Google e Anthropic amplia oferta de inteligência artificial generativa no mercado corporativo.",categoria:"Tecnologia",regiao:"Mundo",fonte:"Redação MundoAgora",horas:6,
+conteudo:`O Google anunciou nesta sexta-feira (23) o lançamento de modelos Claude, da Anthropic, no Google Cloud. A medida amplia a oferta de soluções de inteligência artificial generativa para empresas.
 
-<h2>Segurança em primeiro lugar</h2>
+<h2>Concorrência</h2>
 
-As empresas de tecnologia terão de provar que os seus veículos são mais seguros do que os conduzidos por humanos. Espera-se que os primeiros táxis autónomos comecem a operar no próximo ano.`},
-{id:12,titulo:"Cimeira das Américas debate crise migratória e comércio",resumo:"Presidentes reúnem-se para encontrar soluções conjuntas para a região.",categoria:"Política",regiao:"América",fonte:"Redação MundoAgora",horas:12,
-conteudo:`Líderes das Américas reuniram-se numa cimeira de emergência para debater a crise migratória e o fortalecimento do comércio regional. O encontro decorreu num ambiente de tensão.
+A parceria ocorre em um momento de forte concorrência no setor de IA, com Microsoft, Meta e OpenAI disputando espaço no mercado corporativo. O Google Cloud já oferece modelos próprios, como o Gemini.
 
-<h2>Acordos alcançados</h2>
+<h2>Adoção</h2>
 
-Foi assinado um acordo para a criação de um fundo de apoio aos países que mais acolhem migrantes. Os Estados Unidos prometeram um pacote de ajuda humanitária.`},
-{id:13,titulo:"Festival de Veneza anuncia filmes africanos na competição oficial",resumo:"Pela primeira vez, três produções do continente competem pelo Leão de Ouro.",categoria:"Cultura",regiao:"Mundo",fonte:"Redação MundoAgora",horas:13,
-conteudo:`O Festival de Cinema de Veneza revelou a sua lista de filmes a concurso. Três realizadores africanos foram selecionados para a competição principal, algo inédito na história do festival.
+Os modelos Claude são conhecidos por sua capacidade de processar grandes volumes de texto e por medidas de segurança aprimoradas. Empresas de diversos setores já demonstraram interesse na integração.`},
+{id:7,titulo:"Meta provoca venda massiva de ações de tecnologia",resumo:"Preocupações com os investimentos em IA e a rentabilidade do setor provocam queda nas bolsas.",categoria:"Tecnologia",regiao:"Mundo",fonte:"Redação MundoAgora",horas:7,
+conteudo:`As ações de empresas de tecnologia sofreram uma forte queda nesta sexta-feira (23), após a Meta divulgar um aumento nos gastos com inteligência artificial. O movimento gerou preocupações sobre a rentabilidade dos investimentos no setor.
 
-<h2>Novas vozes no cinema</h2>
+<h2>Sell-off</h2>
 
-Os filmes abordam temas como a migração, a identidade e as tradições africanas. A crítica internacional aplaudiu a decisão, considerando-a um passo importante para a diversidade no cinema.`},
-{id:14,titulo:"Campanha de vacinação em massa erradica poliomielite em 5 países",resumo:"Esforço global consegue travar a propagação do vírus em regiões de risco.",categoria:"Saúde",regiao:"Mundo",fonte:"Redação MundoAgora",horas:14,
-conteudo:`A Organização Mundial de Saúde anunciou que a poliomielite foi oficialmente erradicada em cinco países africanos. A conquista foi possível graças a uma campanha massiva de vacinação.
+O Nasdaq, índice que reúne as principais empresas de tecnologia, registou perdas significativas. A Tesla também contribuiu para o pessimismo ao reduzir sua previsão de gastos de capital, levantando dúvidas sobre o crescimento do setor.
 
-<h2>O caminho para a erradicação global</h2>
+<h2>Reação do mercado</h2>
 
-Apenas dois países no mundo continuam a registar casos da doença. A OMS afirma que a erradicação total está mais próxima do que nunca.`},
-{id:15,titulo:"Grande Barreira de Coral mostra sinais de recuperação",resumo:"Cientistas registam aumento da cobertura de coral em áreas protegidas.",categoria:"Ambiente",regiao:"Oceania",fonte:"Redação MundoAgora",horas:15,
-conteudo:`Um relatório científico revelou que partes da Grande Barreira de Coral, na Austrália, estão a mostrar sinais de recuperação. O crescimento do coral foi notável em áreas onde a pesca é proibida.
+Analistas afirmam que o mercado está a exigir mais clareza sobre o retorno dos investimentos em IA. A volatilidade deve continuar nas próximas semanas.`},
+{id:8,titulo:"Telescópio Roman da NASA é lançado com sucesso para desvendar a energia escura",resumo:"Novo telescópio espacial promete revolucionar o estudo do universo e da matéria escura.",categoria:"Ciência",regiao:"Mundo",fonte:"Redação MundoAgora",horas:8,
+conteudo:`A NASA lançou com sucesso o Telescópio Espacial Nancy Grace Roman, que promete revolucionar o estudo do universo. O lançamento ocorreu nesta sexta-feira (23) e o telescópio já iniciou a fase de testes dos seus instrumentos científicos.
 
-<h2>Esforços de conservação</h2>
+<h2>Missão</h2>
 
-Os cientistas alertam, no entanto, que as alterações climáticas continuam a ser a maior ameaça. O branqueamento em massa ainda afeta grandes zonas do recife.`},
-{id:16,titulo:"Nova fábrica de semicondutores na Europa reduz dependência da Ásia",resumo:"Investimento de 20 mil milhões promete criar milhares de empregos e impulsionar a tecnologia.",categoria:"Economia",regiao:"Europa",fonte:"Redação MundoAgora",horas:16,
-conteudo:`A União Europeia deu luz verde à construção de uma mega fábrica de semicondutores. O investimento visa reduzir a dependência europeia da Ásia neste setor estratégico.
+O Roman é o sucessor do Hubble e do James Webb, e tem como principal objetivo investigar a energia escura, que compõe cerca de 68% do universo. O telescópio também vai procurar exoplanetas e estudar a formação de galáxias.
 
-<h2>Guerra dos chips</h2>
+<h2>Participação japonesa</h2>
 
-A escassez de semicondutores paralisou várias indústrias nos últimos anos. A nova fábrica deverá começar a produzir os primeiros chips dentro de dois anos.`},
-{id:17,titulo:"Cientistas criam vacina universal contra a gripe em testes",resumo:"Injeção experimental promete proteger contra todas as estirpes do vírus.",categoria:"Ciência",regiao:"Mundo",fonte:"Redação MundoAgora",horas:17,
-conteudo:`Investigadores norte-americanos anunciaram os primeiros resultados de uma vacina universal contra a gripe. A injeção mostrou proteger ratos contra várias estirpes do vírus.
+O Japão participa do projeto com instrumentos científicos e equipas de investigação. A missão deverá durar cerca de seis anos.`},
+{id:9,titulo:"Japão lança missão MMX para explorar as luas de Marte",resumo:"Sonda espacial japonesa vai recolher amostras de Fobos e regressar à Terra em 2031.",categoria:"Ciência",regiao:"Ásia",fonte:"Redação MundoAgora",horas:9,
+conteudo:`A Agência de Exploração Aeroespacial do Japão (JAXA) lançou com sucesso a missão MMX, que vai explorar as luas de Marte. A sonda foi lançada do Centro Espacial de Tanegashima a bordo do foguete H3.
 
-<h2>Fim das vacinas anuais?</h2>
+<h2>Objetivo</h2>
 
-Se a vacina se provar eficaz em humanos, poderá eliminar a necessidade de tomar uma nova vacina todos os anos. Os ensaios clínicos em pessoas começam no próximo mês.`},
-{id:18,titulo:"Jogos Olímpicos: novo recorde mundial nos 100 metros",resumo:"Atleta de 22 anos surpreende o mundo e corre a prova em 9,68 segundos.",categoria:"Desporto",regiao:"América",fonte:"Redação MundoAgora",horas:18,
-conteudo:`Os Jogos Olímpicos assistiram a um momento histórico. Um jovem atleta bateu o recorde mundial dos 100 metros ao correr em 9,68 segundos, deixando os adversários para trás.
+A missão vai estudar Fobos e Deimos, as duas luas de Marte, e recolher amostras do solo de Fobos. O retorno das amostras à Terra está previsto para 2031.
 
-<h2>A nova lenda do atletismo</h2>
+<h2>Origem das luas</h2>
 
-A marca anterior já durava há mais de uma década. O atleta dedicou a vitória à sua família e ao seu país.`},
-{id:19,titulo:"União Europeia multa gigantes tecnológicas por violação de privacidade",resumo:"Empresas acusadas de recolher dados de utilizadores sem consentimento.",categoria:"Tecnologia",regiao:"Europa",fonte:"Redação MundoAgora",horas:19,
-conteudo:`A União Europeia aplicou uma multa recorde a duas gigantes da tecnologia por violações da lei de proteção de dados (RGPD). As empresas são acusadas de rastrear utilizadores sem permissão.
+Os cientistas acreditam que as amostras podem revelar se as luas de Marte são asteroides capturados ou fragmentos do próprio planeta. A missão é um passo importante para a exploração humana de Marte.`},
+{id:10,titulo:"Jogos da Juventude da Região 5 reúnem 2.537 atletas em Moçambique",resumo:"Competição continental vai decorrer em Maputo e Matola com a participação de 10 países.",categoria:"Desporto",regiao:"África",fonte:"Redação MundoAgora",horas:10,
+conteudo:`A 12.ª edição dos Jogos da Juventude da Região 5 da União Africana vai reunir 2.537 atletas e oficiais de 10 países. Moçambique será o país anfitrião da competição, que decorre em Maputo e Matola.
 
-<h2>Defesa dos consumidores</h2>
+<h2>Preparação</h2>
 
-As autoridades europeias afirmaram que não vão tolerar abusos. As empresas já anunciaram que vão recorrer da decisão.`},
-{id:20,titulo:"Tensões comerciais: novas tarifas alfandegárias entram em vigor",resumo:"Taxas sobre aço e alumínio aumentam o receio de uma guerra comercial global.",categoria:"Política",regiao:"Ásia",fonte:"Redação MundoAgora",horas:20,
-conteudo:`Novas tarifas alfandegárias sobre o aço e o alumínio entraram em vigor esta semana. A medida deverá afetar as exportações de vários países asiáticos.
+As instalações desportivas estão em fase de reabilitação, com conclusão prevista para 15 de novembro. Entre os recintos estão o Estádio do Zimpeto, o Complexo Aquático do Zimpeto e a Universidade Politécnica.
+
+<h2>Países participantes</h2>
+
+Participam delegações da África do Sul, Angola, Botswana, Eswatini, Lesotho, Malawi, Moçambique, Namíbia, Zâmbia e Zimbabwe. As modalidades incluem futebol, basquetebol, voleibol, netball, atletismo, boxe, karaté, taekwondo e ténis de mesa.`},
+{id:11,titulo:"Black Bulls vencem Rayon Sports e aproximam-se da fase de grupos",resumo:"Equipa moçambicana derrota o Rayon Sports por 2-0 na primeira jornada da segunda fase preliminar.",categoria:"Desporto",regiao:"África",fonte:"Redação MundoAgora",horas:11,
+conteudo:`O Black Bulls venceu o Rayon Sports por 2-0, na primeira jornada da segunda fase preliminar da Liga dos Campeões Africanos. O jogo realizou-se no Estádio Amahoro, no Ruanda.
+
+<h2>Próximo jogo</h2>
+
+A equipa moçambicana vai agora disputar o jogo da segunda mão em casa, com a vantagem de dois golos. Uma vitória ou um empate garante a passagem à fase de grupos.
+
+<h2>História</h2>
+
+O Black Bulls é uma das equipas mais emergentes do futebol moçambicano e procura fazer história na competição continental.`},
+{id:12,titulo:"Ebola alastra-se para a oitava província da República Democrática do Congo",resumo:"União Africana e CDC África apelam a uma ação conjunta para conter o surto.",categoria:"Saúde",regiao:"África",fonte:"Redação MundoAgora",horas:12,
+conteudo:`O surto de Ebola na República Democrática do Congo (RDC) alastrou-se para a oitava província do país. A União Africana (UA) e o Centro de Controlo e Prevenção de Doenças de África (CDC África) apelaram a uma ação continental coordenada para conter a doença.
+
+<h2>Resposta humanitária</h2>
+
+O Programa Alimentar Mundial (PAM) está a distribuir alimentos e a construir centros de tratamento. A OMS enviou especialistas para apoiar as autoridades locais.
+
+<h2>Alerta global</h2>
+
+A OMS classificou o surto como uma emergência de saúde pública de interesse internacional. Os países vizinhos estão em alerta e a reforçar a vigilância epidemiológica.`},
+{id:13,titulo:"França regista primeiro caso humano de infeção pelo vírus Shamonda",resumo:"Autoridades de saúde europeias investigam transmissão do vírus, normalmente encontrado em animais.",categoria:"Saúde",regiao:"Europa",fonte:"Redação MundoAgora",horas:13,
+conteudo:`A França registou o primeiro caso humano conhecido de infeção pelo vírus Shamonda. O paciente, que não resistiu à doença, estava internado num hospital em Paris. As autoridades de saúde europeias consideram a situação "incomum e inesperada".
+
+<h2>Origem</h2>
+
+O vírus Shamonda é transmitido por mosquitos e normalmente afeta ruminantes, como bovinos e ovinos. A transmissão para humanos é rara e ainda não é totalmente compreendida pela ciência.
+
+<h2>Resposta</h2>
+
+A OMS foi notificada e está a acompanhar a situação. As autoridades francesas reforçaram a vigilância epidemiológica e emitiram um alerta sanitário.`},
+{id:14,titulo:"França vive tensão social antes de novas manifestações",resumo:"Governo mobiliza forças de segurança enquanto protestos contra o custo de vida continuam.",categoria:"Mundo",regiao:"Europa",fonte:"Redação MundoAgora",horas:14,
+conteudo:`A França vive um clima de tensão social antes das manifestações marcadas para este sábado (24). O primeiro-ministro Sébastien Lecornu viajou para Limoges, onde a prefeitura foi incendiada na semana passada.
+
+<h2>Medidas de segurança</h2>
+
+O governo francês prepara um dispositivo de segurança reforçado para evitar novos episódios de violência. O presidente Emmanuel Macron presidiu a um Conselho de Defesa para coordenar as medidas.
+
+<h2>Protestos</h2>
+
+Os protestos são contra o aumento do custo de vida e as políticas económicas do governo. Os organizadores prometem uma manifestação pacífica, mas as autoridades temem confrontos.`},
+{id:15,titulo:"Irã alerta para volatilidade nos mercados de energia",resumo:"Autoridade iraniana diz que mercados globais permanecerão voláteis por três anos se pressão dos EUA continuar.",categoria:"Mundo",regiao:"Ásia",fonte:"Redação MundoAgora",horas:15,
+conteudo:`Um alto responsável de segurança do Irão alertou que os mercados globais de energia permanecerão voláteis "nos próximos três anos" se os Estados Unidos continuarem a sua campanha de pressão contra o país.
+
+<h2>Tensão geopolítica</h2>
+
+A declaração surge num momento de crescente tensão entre Teerão e Washington, com sanções económicas e ameaças militares. O Irão é um dos maiores produtores de petróleo do mundo.
 
 <h2>Impacto nos preços</h2>
 
-Economistas alertam que a medida pode provocar o aumento dos preços de vários produtos, desde automóveis a eletrodomésticos. Os mercados financeiros reagiram com queda.`},
-{id:21,titulo:"Descoberto novo planeta com atmosfera rica em oxigénio",resumo:"Exoplaneta a 80 anos-luz da Terra tem condições semelhantes às primitivas da Terra.",categoria:"Ciência",regiao:"Mundo",fonte:"Redação MundoAgora",horas:21,
-conteudo:`O telescópio espacial Hubble detetou um exoplaneta com uma atmosfera invulgarmente rica em oxigénio. O planeta é ligeiramente maior que a Terra.
+A instabilidade na região do Golfo Pérsico tem impacto direto nos preços do petróleo e do gás natural, afetando a economia global.`},
+{id:16,titulo:"Ciclone extratropical forma-se no sul do Brasil",resumo:"Fenómeno pode provocar tempestades e granizo em quatro estados brasileiros.",categoria:"Ambiente",regiao:"América",fonte:"Redação MundoAgora",horas:16,
+conteudo:`Um novo ciclone extratropical deve formar-se entre o litoral do Rio Grande do Sul e o Uruguai no final da tarde desta sexta-feira (23). O fenómeno pode provocar tempestades e granizo em quatro estados brasileiros.
 
-<h2>Vida alienígena?</h2>
+<h2>Alerta</h2>
 
-Os cientistas mostram-se cautelosos, pois o oxigénio também pode ser produzido por processos não biológicos. No entanto, a descoberta torna este planeta um dos principais alvos na busca por vida extraterrestre.`},
-{id:22,titulo:"Exposição de arte rupestre milenar descoberta em caverna no Saara",resumo:"Pinturas revelam como era a vida no deserto há 10.000 anos, quando era verde.",categoria:"Cultura",regiao:"África",fonte:"Redação MundoAgora",horas:22,
-conteudo:`Uma equipa de arqueólogos descobriu centenas de pinturas rupestres numa caverna remota no deserto do Saara. As obras de arte têm cerca de 10.000 anos.
+A Defesa Civil emitiu alertas para o Rio Grande do Sul, Santa Catarina, Paraná e Mato Grosso do Sul. Há risco de quedas de árvores, alagamentos e interrupções de energia.
 
-<h2>Um passado verde</h2>
+<h2>Recomendações</h2>
 
-As pinturas retratam animais como girafas e elefantes, provando que a região foi outrora uma savana verde e fértil. A descoberta vai ajudar a compreender as migrações humanas na antiguidade.`},
-{id:23,titulo:"Bancos centrais testam nova moeda digital global",resumo:"Sistema promete tornar as transferências internacionais mais rápidas e baratas.",categoria:"Economia",regiao:"Mundo",fonte:"Redação MundoAgora",horas:23,
-conteudo:`Vários bancos centrais iniciaram um projeto-piloto para testar uma plataforma comum de moedas digitais. O objetivo é facilitar as transferências de dinheiro entre países.
+As autoridades recomendam que a população evite deslocamentos desnecessários e siga as orientações da Defesa Civil.`},
+{id:17,titulo:"SpaceX e Tesla iniciam discussões para fusão",resumo:"Notícia sobre possível fusão entre as empresas de Elon Musk agita o mercado de tecnologia.",categoria:"Tecnologia",regiao:"Mundo",fonte:"Redação MundoAgora",horas:17,
+conteudo:`A SpaceX e a Tesla iniciaram discussões preliminares sobre uma possível fusão, segundo fontes do setor. A notícia agitou o mercado de tecnologia e levantou questões sobre o futuro das empresas de Elon Musk.
 
-<h2>Fim das taxas altas?</h2>
+<h2>Impacto</h2>
 
-Atualmente, enviar dinheiro para o estrangeiro pode demorar dias e custar taxas elevadas. O novo sistema promete resolver as transferências em poucos segundos.`},
-{id:24,titulo:"Novo tratamento para Alzheimer mostra resultados promissores",resumo:"Medicamento experimental abranda a progressão da doença em 60% dos pacientes.",categoria:"Saúde",regiao:"Europa",fonte:"Redação MundoAgora",horas:24,
-conteudo:`Um novo medicamento contra o Alzheimer mostrou resultados encorajadores num ensaio clínico de fase final. O tratamento abrandou significativamente a perda de memória nos pacientes.
+Uma fusão criaria um gigante da tecnologia e da exploração espacial, com atuação em setores que vão desde veículos elétricos a satélites. Analistas alertam para os desafios regulatórios e de integração.
 
-<h2>Um caminho longo</h2>
+<h2>Reação do mercado</h2>
 
-Ainda não existe cura para o Alzheimer, mas este é o primeiro medicamento em décadas a mostrar um impacto real. As autoridades de saúde vão agora avaliar o medicamento para aprovação.`},
-{id:25,titulo:"Furacão de categoria 5 obriga a evacuação de milhões nos EUA",resumo:"Tempestade considerada a mais forte da década aproxima-se da costa leste.",categoria:"Ambiente",regiao:"América",fonte:"Redação MundoAgora",horas:25,
-conteudo:`Um furacão de categoria 5, o mais forte da última década, está a aproximar-se da costa leste dos Estados Unidos. As autoridades ordenaram a evacuação de milhões de pessoas.
+As ações da Tesla registaram volatilidade após a notícia. A SpaceX não comenta oficialmente o assunto.`},
+{id:18,titulo:"Starlink sofre desaceleração na Ucrânia por ordem de Elon Musk",resumo:"Relatos indicam que Musk ordenou a redução do serviço de internet por satélite na Ucrânia.",categoria:"Tecnologia",regiao:"Europa",fonte:"Redação MundoAgora",horas:18,
+conteudo:`Relatos indicam que Elon Musk ordenou uma desaceleração do serviço Starlink na Ucrânia. A informação foi divulgada por veículos de comunicação internacionais e gerou polémica sobre o papel da empresa no conflito.
 
-<h2>Estado de emergência</h2>
+<h2>Contexto</h2>
 
-O presidente declarou o estado de emergência em vários estados. Os supermercados estão vazios e as autoestradas estão congestionadas com pessoas a fugir da tempestade.`}
+O Starlink tem sido fundamental para as comunicações ucranianas durante a guerra. A desaceleração pode afetar operações militares e civis.
+
+<h2>Reações</h2>
+
+O governo ucraniano manifestou preocupação e pediu explicações. A SpaceX não confirmou oficialmente a ordem de Musk.`},
+{id:19,titulo:"Cientistas criam partícula de antimatéria presa por meses",resumo:"Experimento inovador pode abrir caminho para nova física e compreensão do universo.",categoria:"Ciência",regiao:"Mundo",fonte:"Redação MundoAgora",horas:19,
+conteudo:`Cientistas conseguiram prender uma partícula de antimatéria durante meses num laboratório. O feito, publicado na revista Nature, pode abrir caminho para uma nova compreensão da física e do universo.
+
+<h2>Antimatéria</h2>
+
+A antimatéria é composta por partículas com carga oposta à da matéria comum. Quando entram em contacto, aniquilam-se mutuamente, libertando energia.
+
+<h2>Importância</h2>
+
+O estudo da antimatéria pode ajudar a explicar por que razão o universo é composto quase exclusivamente por matéria, e não por uma quantidade igual de antimatéria. O experimento é considerado um marco na física.`},
+{id:20,titulo:"Messi recebe Prémio Princesa das Astúrias do Desporto",resumo:"Astro argentino é homenageado pelo conjunto da sua carreira e contribuição ao futebol mundial.",categoria:"Desporto",regiao:"Europa",fonte:"Redação MundoAgora",horas:20,
+conteudo:`O jogador argentino Lionel Messi recebeu o Prémio Princesa das Astúrias do Desporto de 2026, em cerimónia realizada em Oviedo, Espanha. O prémio reconhece a sua carreira e contribuição para o futebol mundial.
+
+<h2>Carreira</h2>
+
+Messi é considerado um dos maiores jogadores de todos os tempos, com múltiplos títulos e recordes. O prémio é atribuído anualmente a personalidades ou instituições que se destacam no desporto.
+
+<h2>Declarações</h2>
+
+Em entrevista, Messi agradeceu o reconhecimento e dedicou o prémio à família e aos fãs. O jogador continua a atuar em alto nível.`},
+{id:21,titulo:"Cólera alastra-se em Moçambique após ciclone",resumo:"Número de casos duplicou nas últimas 48 horas, autoridades de saúde tentam conter surto.",categoria:"Saúde",regiao:"África",fonte:"Redação MundoAgora",horas:21,
+conteudo:`O número de casos de cólera em Moçambique duplicou nas últimas 48 horas, após a passagem de um ciclone que devastou a região. As autoridades de saúde estão a tentar conter o surto.
+
+<h2>Resposta</h2>
+
+Equipas médicas foram enviadas para as zonas afetadas. A OMS está a apoiar com kits de emergência e medicamentos. A prioridade é garantir água potável e saneamento básico.
+
+<h2>Preocupação</h2>
+
+A cólera é uma doença diarreica aguda que pode levar à morte em poucas horas se não for tratada. As condições precárias após o ciclone favorecem a propagação da doença.`},
+{id:22,titulo:"Cimeira da União Africana debate integração económica e segurança",resumo:"Líderes africanos reúnem-se em Adis Abeba para discutir comércio e combate ao terrorismo.",categoria:"Política",regiao:"África",fonte:"Redação MundoAgora",horas:22,
+conteudo:`Os chefes de Estado da União Africana reuniram-se em Adis Abeba para a 38.ª cimeira da organização. O encontro teve como temas centrais a integração económica do continente e a luta contra o terrorismo.
+
+<h2>Zona de comércio livre</h2>
+
+Um dos temas mais debatidos foi a implementação da Zona de Comércio Livre Continental Africana (AfCFTA), que deverá criar o maior mercado comum do mundo.
+
+<h2>Segurança</h2>
+
+A segurança foi outro grande tema, com destaque para os ataques terroristas no Sahel e no norte de Moçambique. Foi aprovada a criação de uma força conjunta de intervenção rápida.`},
+{id:23,titulo:"Chip de IA movido a luz atinge 12,5 GHz",resumo:"Instituto indiano e universidade chinesa apresentam avanços em computação fotónica.",categoria:"Tecnologia",regiao:"Ásia",fonte:"Redação MundoAgora",horas:23,
+conteudo:`Cientistas do Instituto Indiano de Tecnologia de Hyderabad e da Universidade Tsinghua, na China, apresentaram avanços significativos em computação fotónica. Um novo chip de IA movido a luz atingiu uma velocidade de 12,5 GHz.
+
+<h2>Tecnologia</h2>
+
+A computação fotónica usa luz em vez de eletricidade para processar informações, o que pode resultar em dispositivos mais rápidos e energeticamente eficientes.
+
+<h2>Futuro</h2>
+
+Os investigadores acreditam que a tecnologia pode revolucionar a inteligência artificial e a computação de alto desempenho. O chip ainda está em fase de protótipo.`},
+{id:24,titulo:"Asteroide passa próximo da Terra sem risco de colisão",resumo:"Objeto rochoso de pequenas dimensões passa a uma distância segura do planeta.",categoria:"Ciência",regiao:"Mundo",fonte:"Redação MundoAgora",horas:24,
+conteudo:`Um asteroide de pequenas dimensões passou próximo da Terra nesta sexta-feira (23), sem risco de colisão. O objeto foi detetado por telescópios e monitorizado por agências espaciais.
+
+<h2>Distância</h2>
+
+O asteroide passou a uma distância segura, superior à órbita da Lua. A NASA e a ESA acompanharam o trajeto e confirmaram que não havia perigo.
+
+<h2>Monitorização</h2>
+
+Programas de monitorização de objetos próximos da Terra (NEO) estão a aumentar a capacidade de deteção de asteroides. A comunidade científica reforça a importância da vigilância contínua.`},
+{id:25,titulo:"Campanha Outubro Rosa alerta para a prevenção do cancro da mama",resumo:"Iniciativa mundial promove rastreio e diagnóstico precoce da doença.",categoria:"Saúde",regiao:"Mundo",fonte:"Redação MundoAgora",horas:25,
+conteudo:`A campanha Outubro Rosa, que decorre durante todo o mês de outubro, alerta para a importância da prevenção e do diagnóstico precoce do cancro da mama. A iniciativa é promovida por organizações de saúde em todo o mundo.
+
+<h2>Rastreio</h2>
+
+A mamografia é o principal exame de rastreio e deve ser realizada periodicamente, especialmente por mulheres a partir dos 40 anos. O diagnóstico precoce aumenta significativamente as chances de cura.
+
+<h2>Conscientização</h2>
+
+Além do rastreio, a campanha promove a conscientização sobre o autoexame e a importância de hábitos saudáveis. O cancro da mama é o tipo de cancro mais comum entre as mulheres.`}
 ];
