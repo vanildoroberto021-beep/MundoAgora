@@ -39,7 +39,7 @@ O mercado também aguarda a divulgação do IPCA-15 de outubro, que será divulg
 No exterior, a disparada do petróleo e as perdas das bolsas de Nova York, especialmente no setor de tecnologia, pressionaram os ativos de risco. Investidores globais buscam segurança em meio à volatilidade.
 
 A tendência é de que o mercado continue volátil até a definição do próximo presidente. As grandes empresas brasileiras listadas na bolsa estão a suspender investimentos até terem clareza.`},
-{id:5,titulo:"Petróleo dispara e pressiona mercados globais",resumo:"Preço do barril de petróleo ultrapassa os US$ 112, afetando bolsas e inflação.",categoria:"Economia",regiao:"Mundo",fonte:"Redação MundoAgora",horas:5,imagem:"https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=900&q=80",
+{id:5,titulo:"Petróleo dispara e pressiona mercados globais",resumo:"Preço do barril de petróleo ultrapassa os US$ 112, afetando bolsas e inflação.",categoria:"Economia",regiao:"Mundo",fonte:"Redação MundoAgora",horas:5,imagem:"https://images.unsplash.com/photo-1543880397-4435d626d955?auto=format&fit=crop&w=900&q=80",
 conteudo:`O preço do petróleo registou uma forte alta nesta sexta-feira (23), com o barril a ultrapassar os US$ 112. A escalada é atribuída a tensões geopolíticas no Oriente Médio e à redução da oferta global por parte dos principais países produtores.
 
 A alta do petróleo pressiona as bolsas de valores em todo o mundo e aumenta as expectativas de inflação. Nos Estados Unidos, os índices de atividade económica e os dados de sentimento do consumidor também entraram no radar.
@@ -48,7 +48,13 @@ A alta do petróleo pressiona as bolsas de valores em todo o mundo e aumenta as 
 
 No Brasil, a Petrobras acompanha a valorização da commodity. Analistas alertam que a alta pode impactar os preços dos combustíveis nas próximas semanas, pressionando ainda mais o orçamento das famílias.
 
-A OPEP+ já sinalizou que pode intervir para estabilizar os preços, mas nenhuma medida concreta foi anunciada até ao momento.`},
+A OPEP+ já sinalizou que pode intervir para estabilizar os preços, mas nenhuma medida concreta foi anunciada até ao momento.
+
+<h2>Reunião de Emergência da OPEP+</h2>
+
+Os ministros da energia dos países membros da OPEP+ estão reunidos de emergência para discutir o aumento da produção. Fontes indicam que um acordo pode ser anunciado nas próximas horas para tentar acalmar os mercados. "Não podemos permitir que a especulação destrua a economia global", afirmou um dos delegados presentes.
+
+Enquanto isso, nos postos de combustível, os consumidores já sentem o impacto. Em algumas capitais europeias, o preço da gasolina atingiu o valor mais alto dos últimos dois anos, levando a protestos de camionistas e transportadores.`},
 {id:6,titulo:"Google Cloud lança modelos Claude da Anthropic para empresas",resumo:"Parceria entre Google e Anthropic amplia oferta de inteligência artificial.",categoria:"Tecnologia",regiao:"Mundo",fonte:"Redação MundoAgora",horas:6,imagem:"https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=900&q=80",
 conteudo:`O Google anunciou nesta sexta-feira (23) o lançamento de modelos Claude, da Anthropic, no Google Cloud. A medida amplia a oferta de soluções de inteligência artificial generativa para empresas e marca uma nova fase na parceria.
 
@@ -59,7 +65,7 @@ A parceria ocorre num momento de forte concorrência no setor de IA, com Microso
 Os modelos Claude são conhecidos por sua capacidade de processar grandes volumes de texto e por medidas de segurança aprimoradas. Empresas de diversos setores, como a banca e a saúde, já demonstraram interesse na integração.
 
 Especialistas acreditam que a parceria pode acelerar a adoção da IA generativa em setores regulados, onde a fiabilidade e a privacidade dos dados são fundamentais.`},
-{id:7,titulo:"Meta provoca venda massiva de ações de tecnologia",resumo:"Preocupações com os investimentos em IA provocam queda nas bolsas.",categoria:"Tecnologia",regiao:"Mundo",fonte:"Redação MundoAgora",horas:7,imagem:"https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&fit=crop&w=900&q=80",
+{id:7,titulo:"Meta provoca venda massiva de ações de tecnologia",resumo:"Preocupações com os investimentos em IA provocam queda nas bolsas.",categoria:"Tecnologia",regiao:"Mundo",fonte:"Redação MundoAgora",horas:7,imagem:"https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&w=900&q=80",
 conteudo:`As ações de empresas de tecnologia sofreram uma forte queda nesta sexta-feira (23), após a Meta divulgar um aumento nos gastos com inteligência artificial. O movimento gerou preocupações sobre a rentabilidade dos investimentos no setor.
 
 O Nasdaq, índice que reúne as principais empresas de tecnologia, registou perdas significativas. A Tesla também contribuiu para o pessimismo ao reduzir sua previsão de gastos de capital.
@@ -68,7 +74,13 @@ O Nasdaq, índice que reúne as principais empresas de tecnologia, registou perd
 
 Analistas afirmam que o mercado está a exigir mais clareza sobre o retorno dos investimentos em IA. "As empresas gastaram milhares de milhões em infraestruturas, mas os lucros ainda não apareceram", explicou um analista.
 
-Os investidores estão a migrar para setores mais tradicionais, considerados mais seguros no atual cenário de incerteza.`},
+Os investidores estão a migrar para setores mais tradicionais, considerados mais seguros no atual cenário de incerteza.
+
+<h2>Declarações de Zuckerberg</h2>
+
+Mark Zuckerberg defendeu os pesados investimentos durante a apresentação dos resultados trimestrais. "Acreditamos que a inteligência artificial é o futuro da nossa empresa e da interação social. Estes custos são um investimento no longo prazo, não um desperdício", afirmou o CEO aos jornalistas.
+
+Analistas de mercado, no entanto, mostram-se céticos. A margem de lucro da Meta caiu 15% neste trimestre, e muitos investidores institucionais começaram a vender as suas posições, temendo que a empresa esteja a perder o foco do seu negócio principal, que é a publicidade digital.`},
 {id:8,titulo:"Telescópio Roman da NASA é lançado com sucesso",resumo:"Novo telescópio espacial promete revolucionar o estudo da energia escura.",categoria:"Ciência",regiao:"Mundo",fonte:"Redação MundoAgora",horas:8,imagem:"https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=900&q=80",
 conteudo:`A NASA lançou com sucesso o Telescópio Espacial Nancy Grace Roman, que promete revolucionar o estudo do universo. O lançamento ocorreu nesta sexta-feira (23) e o telescópio já iniciou a fase de testes.
 
